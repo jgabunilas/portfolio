@@ -13,7 +13,7 @@ menu:
 
 Nice to meet you! My name is Jason and I'm a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.  
 
-When I'm not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I am spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong learner, my goal is to eventually apply these proficiencies to my professional work in biotechnology and to accelerate the development and commercialization of medicines for those who need them the most.
+When I'm not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I am spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong learner, my eventual goal is to apply these proficiencies to my professional work in biotechnology and to accelerate the development and commercialization of medicines for those who need them the most.
 
 ---
 
