@@ -6,7 +6,7 @@ menu:
   main:
     weight: 1
 ---
-{{< figure src="https://jgabunilas.github.io/JG_portfolio/images/about/DSCF1926-bw.jpg"  >}}
+{{< figure src="/images/about/DSCF1926-bw.jpg"  >}}
 
 Nice to meet you! My name is Jason and I'm a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.  
 
