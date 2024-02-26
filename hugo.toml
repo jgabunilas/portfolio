@@ -42,13 +42,13 @@ enableRobotsTXT = true
   linkedin = "https://www.linkedin.com/in/jason-gabunilas/"
   github = "https://github.com/jgabunilas"
 
-[[module.mounts]]
-source = 'static'
-target = 'static'
+# [[module.mounts]]
+# source = 'static'
+# target = 'static'
 
-[[module.mounts]]
-source = 'images'
-target = 'static/images'
+# [[module.mounts]]
+# source = 'images'
+# target = 'static/images'
 
 # [[params.ananke_socials]]
 # name = "twitter"

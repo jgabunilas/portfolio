@@ -19,7 +19,8 @@ When I'm not working alongside my colleagues to bring life-changing medications 
 
 ## Scientific Training
 
-{{< figure src="/images/about/prague_talk1.jpg"  >}}
+<!-- {{< figure src="/images/about/prague_talk1.jpg"  >}} -->
+![](prague_talk1.jpg)
 
 Prior to entering the biotechnology industry, I spent over six years in academia conducting original research in the field of eukaryotic RNA splicing and gene expression regulation while pursuing my doctoral degree. My colleagues and I published multiple research articles in prestigous scientific journals that continue to bear influence on the RNA research community. I also had the privilege of presenting our work at two international scientific conferences.  
 
