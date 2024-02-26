@@ -43,7 +43,7 @@
 <meta itemprop="name" content="Ski Resort Explorer">
 <meta itemprop="description" content="An interactive Dash web application">
 
-<meta itemprop="wordCount" content="702">
+<meta itemprop="wordCount" content="706">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Ski Resort Explorer"/>
 <meta name="twitter:description" content="An interactive Dash web application"/>
 
@@ -187,7 +187,8 @@
 <h2 id="part-1-resort-finder-map">Part 1: Resort Finder Map</h2>
 <p>The first tab of the application presents the user with an interactive global map with which they can locate ski resorts that match their preferences selected from a set of options. The title at the top of the page is dynamic and changes to reflect maximum lift ticket price selected by the user.</p>
 <!-- raw HTML omitted -->
-<p><img src="/JG_portfolio/images/resorts/resort-finder.png"></p>
+<!-- raw HTML omitted -->
+<p>![]({{ relURL &ldquo;/images/resorts/resort-finder.png&rdquo; }})</p>
 <p>The underlying data is obtained from a spreadsheet that contains information pertaining to hundreds of ski resorts around the world, including but not limited to:</p>
 <ul>
 <li>Resort name</li>
@@ -199,42 +200,36 @@
 <li>Country-specific rankings for elevation, lift ticket price, snow cannon count, and slope count</li>
 </ul>
 <p>The user first selects a maximum lift ticket price from the slider. Next, using the provided check boxes, the user selects whether the resort of interest has a snow park, night skiing, and/or summer skiing.</p>
-<figure><img src="/images/resorts/resort-options.png"/>
-</figure>
-
+<!-- raw HTML omitted -->
+<p><img src="/JG_portfolio/images/resorts/resort-options.png"></p>
 <p>The selected price and options are passed to a callback function that filters the dataset accordingly, removing resorts that do not fit the user&rsquo;s preferences and price range. The function updates the 
 
 <a href="https://plotly.com/python/mapbox-density-heatmaps/" target="_blank" >density mapbox</a>
  visualization to include only the filtered resorts. The resorts are color-coded by the total number of slopes. The user is able to mouse over the resorts to view additional additional information in the tooltip. Additionally, the callback function modifies the title of at the top of the page based on the selected lift ticket price.</p>
-<figure><img src="/images/resorts/resort-finder-map.png"/>
-</figure>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="/JG_portfolio/images/resorts/resort-finder-map.png"></p>
 <h2 id="part-2-resort-rankings">Part 2: Resort Rankings</h2>
 <p>The second tab of the application displays a bar graph showing the &ldquo;top&rdquo; ski resorts for a country and metric selected by the user, up to a maximum of 10. The user can then hover over the bar graph pertaining to a specific resort, which will update the Resort Report Card with additional ranking information pertaining to the selected resort. The title at the top of the page is dynamic and changes to reflect the selected country and number of resorts displayed in the bar graph.</p>
-<figure><img src="/images/resorts/resort-rankings.png"/>
-</figure>
-
+<!-- raw HTML omitted -->
+<p><img src="/JG_portfolio/images/resorts/resort-rankings.png"></p>
 <p>First, the user selects a Continent, Country, and ranking Metric from the provided dropdown menus. The <strong>Country</strong> dropdown menu is dynamic and changes based on the selection made from the <strong>Continent</strong> dropdown menu. This behavior is handled by a dedicated callback function that accepts the input from the <strong>Continent</strong> dropdown menu and filters the options available in the <strong>Country</strong> dropdown accordingly.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<p><figure><img src="/images/resorts/continent-sel1.png"/>
-</figure>
-
-<figure><img src="/images/resorts/continent-sel2.png"/>
-</figure>
-</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="/JG_portfolio/images/resorts/continent-sel1.png">
+<img src="/JG_portfolio/images/resorts/continent-sel2.png"></p>
 <p>Next, the user selects a Metric from the <strong>Metric</strong> dropdown menu by which the ski resorts are to be ranked. The Country and Metric selections feed into a second callback function that filters the dataset to the ski resorts within the selected country and ranks them according to the selected metric. The function then generates a bar graph with the sorted rankings of the resorts.</p>
 <p>Finally, the user can update the <strong>Resort Report Card</strong> on the upper right corner of the page by hoving over the bar graph to the resort of interest. This is handled by a third callback function that receives the resort name when the user hovers over a bar in the bar chart and returns that resort&rsquo;s intranational ranking for elevation, lift ticket price, slope count, and snow cannon count. A ranking guide is provided that explains how to interpret the rankings for each metric.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<p><figure><img src="/images/resorts/whistler-rank.png"/>
-</figure>
-
-<figure><img src="/images/resorts/panorama-rank.png"/>
-</figure>
-</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="/JG_portfolio/images/resorts/whistler-rank.png">
+<img src="/JG_portfolio/images/resorts/panorama-rank.png"></p>
 <ul class="pa0">
   
 </ul>
