@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 # description: "Hi, I'm Jason."
-featured_image: '/images//about/aurora-225449_1920.jpg'
+featured_image: '/images/aurora-225449_1920.jpg'
 menu:
   main:
     weight: 1
