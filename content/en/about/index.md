@@ -8,7 +8,7 @@ menu:
 ---
 <!-- {{< figure src="/images/about/DSCF1926-bw.jpg"  >}} -->
 <!-- <img src="{{ "images/about/DSCF1926-bw.jpg" | relURL }}" alt="My Image"> -->
-![](DSCF1926-bw.jpg)
+![](/images/about/DSCF1926-bw.jpg)
 
 
 Nice to meet you! My name is Jason and I'm a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.  
