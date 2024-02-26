@@ -21,8 +21,8 @@ This application is hosted online [here](https://resort-explorer.onrender.com/).
 ## Part 1: Resort Finder Map
 The first tab of the application presents the user with an interactive global map with which they can locate ski resorts that match their preferences selected from a set of options. The title at the top of the page is dynamic and changes to reflect maximum lift ticket price selected by the user.
 
-{{< figure src="/images/resorts/resort-finder.png" >}} 
-![](/images/resorts/resort-finder.png)
+<!-- {{< figure src="/images/resorts/resort-finder.png" >}} -->
+![](/JG_portfolio/images/resorts/resort-finder.png)
 
 
 The underlying data is obtained from a spreadsheet that contains information pertaining to hundreds of ski resorts around the world, including but not limited to:
@@ -37,17 +37,21 @@ The underlying data is obtained from a spreadsheet that contains information per
 
 The user first selects a maximum lift ticket price from the slider. Next, using the provided check boxes, the user selects whether the resort of interest has a snow park, night skiing, and/or summer skiing. 
 
-{{< figure src="/images/resorts/resort-options.png" >}} 
+<!-- {{< figure src="/images/resorts/resort-options.png" >}}  -->
+![](/JG_portfolio/images/resorts/resort-options.png)
 
 The selected price and options are passed to a callback function that filters the dataset accordingly, removing resorts that do not fit the user's preferences and price range. The function updates the [density mapbox](https://plotly.com/python/mapbox-density-heatmaps/) visualization to include only the filtered resorts. The resorts are color-coded by the total number of slopes. The user is able to mouse over the resorts to view additional additional information in the tooltip. Additionally, the callback function modifies the title of at the top of the page based on the selected lift ticket price.
 
-{{< figure src="/images/resorts/resort-finder-map.png" >}} 
+<!-- {{< figure src="/images/resorts/resort-finder-map.png" >}}  -->
+<!-- {{< figure src="/images/resorts/resort-finder-map.png" >}}  -->
+![](/JG_portfolio/images/resorts/resort-finder-map.png)
 
 ## Part 2: Resort Rankings
 
 The second tab of the application displays a bar graph showing the "top" ski resorts for a country and metric selected by the user, up to a maximum of 10. The user can then hover over the bar graph pertaining to a specific resort, which will update the Resort Report Card with additional ranking information pertaining to the selected resort. The title at the top of the page is dynamic and changes to reflect the selected country and number of resorts displayed in the bar graph.
 
-{{< figure src="/images/resorts/resort-rankings.png" >}} 
+<!-- {{< figure src="/images/resorts/resort-rankings.png" >}}  -->
+![](/JG_portfolio/images/resorts/resort-rankings.png)
 
 First, the user selects a Continent, Country, and ranking Metric from the provided dropdown menus. The **Country** dropdown menu is dynamic and changes based on the selection made from the **Continent** dropdown menu. This behavior is handled by a dedicated callback function that accepts the input from the **Continent** dropdown menu and filters the options available in the **Country** dropdown accordingly. 
 
@@ -63,8 +67,10 @@ First, the user selects a Continent, Country, and ranking Metric from the provid
   <img src="image-8.png" width="312" /> 
 </p> -->
 
-{{< figure src="/images/resorts/continent-sel1.png" >}} 
-{{< figure src="/images/resorts/continent-sel2.png" >}} 
+<!-- {{< figure src="/images/resorts/continent-sel1.png" >}}  -->
+<!-- {{< figure src="/images/resorts/continent-sel2.png" >}}  -->
+![](/JG_portfolio/images/resorts/continent-sel1.png)
+![](/JG_portfolio/images/resorts/continent-sel2.png)
 
 Next, the user selects a Metric from the **Metric** dropdown menu by which the ski resorts are to be ranked. The Country and Metric selections feed into a second callback function that filters the dataset to the ski resorts within the selected country and ranks them according to the selected metric. The function then generates a bar graph with the sorted rankings of the resorts. 
 
@@ -78,5 +84,8 @@ Finally, the user can update the **Resort Report Card** on the upper right corne
   <img src="image-10.png" />
 </p> -->
 
-{{< figure src="/images/resorts/whistler-rank.png" >}} 
-{{< figure src="/images/resorts/panorama-rank.png" >}} 
+<!-- {{< figure src="/images/resorts/whistler-rank.png" >}} 
+{{< figure src="/images/resorts/panorama-rank.png" >}}  -->
+
+![](/JG_portfolio/images/resorts/whistler-rank.png)
+![](/JG_portfolio/images/resorts/panorama-rank.png)
