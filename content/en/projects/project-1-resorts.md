@@ -21,8 +21,8 @@ This application is hosted online [here](https://resort-explorer.onrender.com/).
 ## Part 1: Resort Finder Map
 The first tab of the application presents the user with an interactive global map with which they can locate ski resorts that match their preferences selected from a set of options. The title at the top of the page is dynamic and changes to reflect maximum lift ticket price selected by the user.
 
-
 {{< figure src="/images/resorts/resort-finder.png" >}} 
+![](/images/resorts/resort-finder.png)
 
 
 The underlying data is obtained from a spreadsheet that contains information pertaining to hundreds of ski resorts around the world, including but not limited to:

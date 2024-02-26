@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>Ski Resort Explorer</title>
-      <link>https://jgabunilas.github.io/JG_portfolio/projects/project-1-resorts/project-1-resorts/</link>
+      <link>https://jgabunilas.github.io/JG_portfolio/projects/project-1-resorts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.github.io/JG_portfolio/projects/project-1-resorts/project-1-resorts/</guid>
+      <guid>https://jgabunilas.github.io/JG_portfolio/projects/project-1-resorts/</guid>
       <description>Project Summary The goal of this project was to construct a simulated ski resort explorer application that enables the user to perform the following tasks:&#xA;Identify ski resorts around the world that fit the user&amp;rsquo;s preferences Select ski resorts within a selected country and rank them according to a desired metric This application was constructed as the final project from the Python Data Visualization: Dashboards with Plotly &amp;amp; Dash&#xD;course from Udemy.</description>
     </item>
     <item>
