@@ -20,7 +20,7 @@
       <link>https://jgabunilas.github.io/JG_portfolio/projects/project-3-vacation/</link>
       <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
       <guid>https://jgabunilas.github.io/JG_portfolio/projects/project-3-vacation/</guid>
-      <description>Project Summary This exercise analyzes various properties of local weather as a function of location, seeking to understand whether temperature, cloudiness, windiness, or humidity for a given city is correlated with its latitudinal positioning. It makes extensive use of the following tools:&#xA;Pandas - data cleanup and organization Matplotlib - data visualization Scipy - regression analysis Requests - API requests View this project on GitHub&#xD;Part I: WeatherPy In the first part of this analysis, weather data retrieved from the OpenWeather API is organized to determine whether a city&amp;rsquo;s latitudinal position may be related to various properties of the weather.</description>
+      <description>View this project on GitHub&#xD;Project Summary This exercise analyzes various properties of local weather as a function of location, seeking to understand whether temperature, cloudiness, windiness, or humidity for a given city is correlated with its latitudinal positioning. It makes extensive use of the following tools:&#xA;Pandas - data cleanup and organization Matplotlib - data visualization Scipy - regression analysis Requests - API requests Part I: WeatherPy In the first part of this analysis, weather data retrieved from the OpenWeather API is organized to determine whether a city&amp;rsquo;s latitudinal position may be related to various properties of the weather.</description>
     </item>
     <item>
       <title>The Monty Hall Problem</title>

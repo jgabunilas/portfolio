@@ -6,6 +6,7 @@ tags: []
 title: "Weather and Vacation API"
 weight: 2
 ---
+#### [View this project on GitHub](https://github.com/jgabunilas/python-api-challenge)  
 
 ## Project Summary 
 
@@ -17,7 +18,6 @@ This exercise analyzes various properties of local weather as a function of loca
 - Requests - API requests
 
 ---
-#### [View this project on GitHub](https://github.com/jgabunilas/python-api-challenge)
 
 ## Part I: WeatherPy
 In the first part of this analysis, weather data retrieved from the OpenWeather API is organized to determine whether a city's latitudinal position may be related to various properties of the weather. 
@@ -59,6 +59,8 @@ In the first part of this analysis, weather data retrieved from the OpenWeather 
 
 ![Temp vs. latitude](Fig5_NH_Lat_v_Temp.png)
 ![Temp vs. latitude](Fig6_SH_Lat_v_Temp.png)
+
+All visualizations comparing weather properties against latitude can be viewed at [this webpage](https://jgabunilas.github.io/Web-Design-Challenge/).
 
 ---
 
