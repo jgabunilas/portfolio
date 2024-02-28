@@ -5,8 +5,10 @@ featured_image: "/images/resorts/skilift.jpg"
 # tags: ["scene"]
 title: "Ski Resort Explorer"
 ---
+##### [View this project on GitHub](https://github.com/jgabunilas/ski_resorts)
 
 ## Project Summary
+
 The goal of this project was to construct a simulated ski resort explorer application that enables the user to perform the following tasks:
 - Identify ski resorts around the world that fit the user's preferences
 - Select ski resorts within a selected country and rank them according to a desired metric

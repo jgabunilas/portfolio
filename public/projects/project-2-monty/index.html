@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/JG_portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=JG_portfolio/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>The Monty Hall Problem | Jason Gabunilas</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="A Python implementation of the classic thought experiment">
+    <meta name="generator" content="Hugo 0.123.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/JG_portfolio/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/JG_portfolio/projects/project-2-monty/">
+    
+
+    <meta property="og:title" content="The Monty Hall Problem" />
+<meta property="og:description" content="A Python implementation of the classic thought experiment" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/JG_portfolio/projects/project-2-monty/" /><meta property="article:section" content="projects" />
+
+
+
+<meta itemprop="name" content="The Monty Hall Problem">
+<meta itemprop="description" content="A Python implementation of the classic thought experiment">
+
+<meta itemprop="wordCount" content="1370">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="The Monty Hall Problem"/>
+<meta name="twitter:description" content="A Python implementation of the classic thought experiment"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/JG_portfolio/images/LMADlogo.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/JG_portfolio/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Jason Gabunilas
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/JG_portfolio/about/" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/JG_portfolio/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/JG_portfolio/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/jgabunilas" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/jason-gabunilas/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">The Monty Hall Problem</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              A Python implementation of the classic thought experiment
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Projects
+      </aside>
+      
+      <h1 class="f1 athelas mt3 mb1">The Monty Hall Problem</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h4 id="view-this-project-on-githubhttpsgithubcomjgabunilasmonty-hall">
+
+<a href="https://github.com/jgabunilas/monty-hall" target="_blank" >View this project on GitHub</a>
+</h4>
+<h2 id="introduction">Introduction</h2>
+<p>The Monty Hall problem is a classic problem in probability theory. Modeled as a game of chance and named after the eponymous game show host 
+
+<a href="https://en.wikipedia.org/wiki/Monty_Hall" target="_blank" >Monty Hall</a>
+, it has sparked debate, discussion, and discourse between academics and laypeople alike.</p>
+<p>This simple exercise is a Python implementation of the Monty Hall problem with two primary features:</p>
+<ol>
+<li>A functional implementation which allows the user to play through the game</li>
+<li>A simulator that runs through a chosen number of iterations of the game and sisplays the outcomes based on the parameters selected by the user.</li>
+</ol>
+<p>This exercise is not intended to expand upon existing mathematical knowledge of the Monty Hall problem, which as been thoroughly solved both explicity and computationally. Instead, it is meant to showcase the use of Python data types as well as demonstrate basic use of Pandas dataframes and plotting functions.</p>
+<p><img src="/JG_portfolio/projects/project-2-monty/monty_man.jpg"></p>
+<p>Monty Hall</p>
+<hr>
+<h2 id="the-problem">The Problem</h2>
+<p><img src="/JG_portfolio/projects/project-2-monty/monty_hall_image.png"></p>
+<p>While there are multiple variations of the problem, most incarnations (and the one used in this exercise) are based on the following premise:</p>
+<ol>
+<li>The game show host presents the player with three doors and informs the player that two of the doors have a goat behind them, while the remaining door has a car. The player will win the prize that is hidden behind the door that they choose. Therefore, the player&rsquo;s objective is to choose the door that leads to the car while avoiding the two doors that lead to goats.</li>
+<li>The player selects a door.</li>
+<li>Before revealing what is behind the door that was selected by the player, the host first opens <strong>one</strong> of the two doors that the player <em>did not</em> select. The door that the host opens always reveals a goat.</li>
+<li>The host asks the player if they would like to switch their selection to the final remaining unopened door, or stay with the door that they originally selected.</li>
+<li>The player decides whether to stay with the current door or switch to the other unopened door.</li>
+<li>The host opens the final door selected by the player and the prize is revealed.</li>
+</ol>
+<p>The debate and discussion surrounding the problem stems from whether the player should switch doors after the host opens one of the doors with a goat in order to maximmize his or her chances of winning the car. The optimal solution to this incarnation of the problem can be reviewed in this 
+
+<a href="https://en.wikipedia.org/wiki/Monty_Hall_problem" target="_blank" >Wikipedia article</a>
+.</p>
+<p><em>Spoiler alert: the best choice to maximize your chance of winning the car is to switch doors when offered. If you don&rsquo;t believe this to be true now, perhaps you will after running the simulations in <strong>Part 2</strong> of this project.</em></p>
+<hr>
+<h2 id="part-1-manual-game-play">Part 1: Manual Game Play</h2>
+<p>Part 1 of this project is a functional implementation of the game that walks the player through the six steps presented above. The manual game is launched by selecting option 1 when prompted by the game.</p>
+<p>The basic outline of the program is as follows:</p>
+<ol>
+<li>The three prizes (two goats and a car) are stored in a list called <code>choices</code>. This list is shuffled using the <code>random.shuffle()</code> function</li>
+<li>The player is prompted to select either door 1, 2, or 3 using the <code>input()</code> function. Data validation ensures choices are limited to one of these three entries.</li>
+<li>Once the player has selected a door, the program then constructs a new list called <code>other_doors</code> that contains the numbers of the two doors that were <em>not</em> selected by the player (for example, if the player chose door 1, then <code>other_doors</code> will contain doors 2 and 3).  The <code>other_doors</code> list is then shuffled (see below for an explanation as to why this shuffle is necessary).</li>
+<li>The now-shuffled <code>other_doors</code> list is used to &ldquo;check&rdquo; the unchosen doors and open one that has a goat. The list is checked iteratively, starting at the first indexed position <code>0</code>. If the first door in the list has a goat, that door is opened and the goat is revealed to the player. If the first door in the list has a car, then the second door in the list (at index 1) is opened and the goat is revealed to the player.
+<ul>
+<li>This iterative checking procedure illustrates the need to shuffle the <code>other_doors</code> list. The unchosen door that is opened must <strong>always</strong> reveal a goat. If this list is not shuffled and is checked iteratively (incrementally from index 0 onward), then the attentive player will begin to recognize patterns of which doors are opened based on his or her original selection.</li>
+<li>For example, when a player chooses door 1:
+<ul>
+<li>If the car is behind door 1, then both doors 2 and 3 have goats. Since the list is checked iteratively, then in an unshuffled list, door 2 will always be checked and opened first.</li>
+<li>Thus, over many iterations, a player may realize that whenever door 2 is opened to reveal a goat, there is a higher-than-average chance that door 1 has a car. By shuffling the <code>other_doors</code> list, there is a chance to check door 3 for a goat first, thereby greatly reducing the changes of pattern recognition by the player.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The player is prompted via <code>input()</code> to choose whether to switch to the remaining unopened door (&ldquo;y&rdquo;) or stay with the original chosen door (&ldquo;n&rdquo;). Again, data validation ensures the integrity of the entry.</li>
+<li>The final door that the player has chosen is opened, and the prize is revealed. Additionally, the player is informed of whether a car or a goat was behind the door that was selected at the beginning of the game.</li>
+</ol>
+<p><img src="/JG_portfolio/projects/project-2-monty/manual_play.JPG"></p>
+<hr>
+<h2 id="part-2-simulation">Part 2: Simulation</h2>
+<p>Part 2 allows the user to run multiple iterative simulations of the Monty Hall problem and view the outcomes in aggregate. It is launched by selecting option 2 when prompted by the game.</p>
+<p>The basic outline of the program is as follows:</p>
+<ol>
+<li>The player is prompted via <code>input()</code> to enter the number of simulations, which is stored in the variable <code>num_sims</code>. Data validation via a <em>try and except</em> clause ensures that the entry is an integer value.</li>
+<li>The player is next prompted via <code>input()</code> to choose whether, the program will switch doors (&ldquo;y&rdquo;) or remain with the originally-selected door (&ldquo;n&rdquo;). The value is stored as the varaible <code>switch</code> and is applied to every simulation in the run.</li>
+<li>Once input is received, an empty <code>results</code> list is created that will eventually store the result of each simulation that is performed.</li>
+<li>Next, for each simulation that is run, the program executes the function <code>run_sim()</code>. This function accepts the <code>switch</code> variable as an argument and performs the following:
+<ul>
+<li>Creates a list called <code>choices</code> which holds the three prizes (one car and two goats).</li>
+<li>A prize within <code>choices</code> is chosen at random using <code>random.choice</code>, and is stored as the variable <code>initial_choice</code>. This simulates the selection of the initial door by the player.</li>
+<li>The randomly-chosen prize (car or goat) is removed from the <code>choices</code> list.</li>
+<li>Next, one goat is removed from the <code>choices</code> list to simulate the opening of the unchosen door to reveal a goat. Thereafter, the <code>choices</code> list will contain just one final item, which is saved as the variable <code>remaining_choice</code>.</li>
+<li>If the player directed the simulator to switch doors, the variable <code>prize</code> will be set equal to <code>remaining_choice</code>. If the player directed the simulator to stay with the initial door, then the <code>prize</code> variable will be set equal to <code>initial_choice</code>.</li>
+<li>The function returns a tuple containing <code>initial_choice</code> and <code>prize</code>.</li>
+</ul>
+</li>
+<li>The returned value of the <code>run_sim()</code> function call is appended to the <code>results</code> list.</li>
+<li>After all simulations have been executed, the program iterates through the <code>results</code> list and constructs a <code>final_prizes</code> list using the <code>prize</code> values from each tuple in <code>results</code>.</li>
+<li>The program iterates through the <code>final_prizes</code> list and sums the total number of goats and cars. It stores these sums as <code>total_goat_prizes</code> and <code>total_car_prizes</code>, respectively. It also calculates the percentage of prizes are goats and cars and stores these values as <code>percent_goats</code> and <code>percent_cars</code>.</li>
+<li>The program prints out the total numbers and percentages of car and goat prizes.</li>
+<li>The program creates a Pandas dataframe with <strong>Total Prizes</strong> and <strong>Percent</strong> and uses this frame to create a simple bar graph that plots the number of car and goat prizes based on the number of simulations run.</li>
+</ol>
+<p><img src="/JG_portfolio/projects/project-2-monty/simulation.JPG"></p>
+<p><img src="/JG_portfolio/projects/project-2-monty/prize_plot.jpeg"></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/JG_portfolio/" >
+    &copy;  Jason Gabunilas 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/jgabunilas" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/jason-gabunilas/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
