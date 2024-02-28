@@ -1,7 +1,7 @@
 ---
 # date: 2017-04-09T10:58:08-04:00
 description: "An interactive Dash web application"
-featured_image: "/images/resorts/skilift.jpg"
+featured_image: "/images/skilift.jpg"
 # tags: ["scene"]
 title: "Ski Resort Explorer"
 ---
