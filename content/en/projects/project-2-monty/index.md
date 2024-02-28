@@ -6,6 +6,8 @@ featured_image: "/images/LMADlogo.jpg"
 
 # tags: ["scene"]
 title: "The Monty Hall Problem"
+
+weight: 3
 ---
 #### [View this project on GitHub](https://github.com/jgabunilas/monty-hall)
 

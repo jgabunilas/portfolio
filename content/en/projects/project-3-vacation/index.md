@@ -4,6 +4,7 @@ description: ""
 featured_image: "/images/polynesia-3021072_1920.jpg"
 tags: []
 title: "Weather and Vacation API"
+weight: 2
 ---
 
 ## Project Summary 
@@ -16,6 +17,7 @@ This exercise analyzes various properties of local weather as a function of loca
 - Requests - API requests
 
 ---
+#### [View this project on GitHub](https://github.com/jgabunilas/python-api-challenge)
 
 ## Part I: WeatherPy
 In the first part of this analysis, weather data retrieved from the OpenWeather API is organized to determine whether a city's latitudinal position may be related to various properties of the weather. 

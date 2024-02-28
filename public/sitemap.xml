@@ -2,12 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jgabunilas.github.io/JG_portfolio/</loc>
-    <lastmod>2017-04-11T11:13:32-04:00</lastmod>
+    <loc>https://jgabunilas.github.io/JG_portfolio/projects/project-1-resorts/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://jgabunilas.github.io/JG_portfolio/projects/project-3-vacation/</loc>
+    <lastmod>2017-04-11T11:13:32-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jgabunilas.github.io/JG_portfolio/projects/project-2-monty/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jgabunilas.github.io/JG_portfolio/</loc>
     <lastmod>2017-04-11T11:13:32-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -34,15 +42,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://jgabunilas.github.io/JG_portfolio/projects/project-1-resorts/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://jgabunilas.github.io/JG_portfolio/tags/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jgabunilas.github.io/JG_portfolio/projects/project-2-monty/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
