@@ -1,6 +1,6 @@
 title = "Jason Gabunilas"
-baseURL = "https://jgabunilas.github.io/portfolio/"
-# baseURL = "https://example.com/"
+# baseURL = "https://jgabunilas.github.io/portfolio/"
+baseURL = "https://jgabunilas.onrender.com/"
 
 languageCode = "en-us"
 theme = "ananke"
