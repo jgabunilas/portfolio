@@ -1,5 +1,5 @@
 title = "Jason Gabunilas"
-baseURL = "https://jgabunilas.github.io/JG_portfolio/"
+baseURL = "https://jgabunilas.github.io/portfolio/"
 # baseURL = "https://example.com/"
 
 languageCode = "en-us"
@@ -7,7 +7,7 @@ theme = "ananke"
 # resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
+# SectionPagesMenu = "main"
 Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
 # googleAnalytics = ""
 enableRobotsTXT = true
@@ -29,6 +29,24 @@ enableRobotsTXT = true
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
+
+
+# Custom menu definition with weighted pages
+[menus]
+[[menus.main]]
+    name = 'About Me'
+    pageRef = '/about'
+    weight = 10
+[[menus.main]]
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 20
+[[menus.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 30
+
+
 
 [params]
   text_color = ""
