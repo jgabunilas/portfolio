@@ -7,6 +7,7 @@ theme = "ananke"
 # resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
+# The SectionPagesMenu option must be disabled in order to use custom menu definitions. See below.
 # SectionPagesMenu = "main"
 Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
 # googleAnalytics = ""

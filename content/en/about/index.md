@@ -13,7 +13,7 @@ menu:
 
 Nice to meet you! My name is Jason and I'm a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.  
 
-When I'm not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I am spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong learner, my eventual goal is to apply these proficiencies to my professional work in biotechnology and to accelerate the development and commercialization of medicines for those who need them the most.
+When I'm not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong learner, my eventual goal is to apply these proficiencies to my professional work in biotechnology and to accelerate the development and commercialization of medicines for those who need them the most.
 
 ---
 
@@ -24,7 +24,7 @@ When I'm not working alongside my colleagues to bring life-changing medications 
 
 Prior to entering the biotechnology industry, I spent over six years in academia conducting original research in the field of eukaryotic RNA splicing and gene expression regulation while pursuing my doctoral degree. My colleagues and I published multiple research articles in prestigous scientific journals that continue to bear influence on the RNA research community. I also had the privilege of presenting our work at two international scientific conferences.  
 
-My academic publications can be viewed on [Google Scholar](https://scholar.google.com/citations?user=DM08A88AAAAJ&hl=en&oi=ao) and [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Jason+Gabunilas%5BAuthor%5D&sort=date).
+My scientific publications can be viewed on [Google Scholar](https://scholar.google.com/citations?user=DM08A88AAAAJ&hl=en&oi=ao) and [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Jason+Gabunilas%5BAuthor%5D&sort=date).
 
 I earned my Ph.D. in Biochemistry and Molecular Biology from the University of California, Los Angeles in 2017. I also hold B.S. and M.S. degrees in Biongineering from the University of California, San Diego.
 
