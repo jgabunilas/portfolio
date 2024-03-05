@@ -17,7 +17,7 @@ The Monty Hall problem is a classic problem in probability theory. Modeled as a 
 
 This simple exercise is a Python implementation of the Monty Hall problem with two primary features:
 1. A functional implementation which allows the user to play through the game
-2. A simulator that runs through a chosen number of iterations of the game and sisplays the outcomes based on the parameters selected by the user.
+2. A simulator that runs through a chosen number of iterations of the game and displays the outcomes based on the parameters selected by the user.
 
 This exercise is not intended to expand upon existing mathematical knowledge of the Monty Hall problem, which as been thoroughly solved both explicity and computationally. Instead, it is meant to showcase the use of Python data types as well as demonstrate basic use of Pandas dataframes and plotting functions. 
 
@@ -90,3 +90,5 @@ The basic outline of the program is as follows:
 ![](simulation.jpg)
 
 ![](prize_plot.jpeg)
+
+*As promised, the simulation demonstrates that switching doors when offered results in the car prize approximately 66% of the time.*
