@@ -4,7 +4,7 @@ description: "An interactive Dash web application"
 featured_image: "/images/skilift.jpg"
 # tags: ["scene"]
 title: "Ski Resort Explorer"
-weight: 1
+weight: 5
 ---
 ##### [View this project on GitHub](https://github.com/jgabunilas/ski_resorts)
 

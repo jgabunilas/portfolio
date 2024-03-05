@@ -16,6 +16,13 @@
       <description>View this project on GitHub&#xD;Project Summary The goal of this project was to construct a simulated ski resort explorer application that enables the user to perform the following tasks:&#xA;Identify ski resorts around the world that fit the user&amp;rsquo;s preferences Select ski resorts within a selected country and rank them according to a desired metric This application was constructed as the final project from the Python Data Visualization: Dashboards with Plotly &amp;amp; Dash&#xD;course from Udemy.</description>
     </item>
     <item>
+      <title>Exoplanet Classifier</title>
+      <link>https://jgabunilas.onrender.com/projects/project-4-exoplanets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jgabunilas.onrender.com/projects/project-4-exoplanets/</guid>
+      <description>View this project on GitHub&#xD;Project Summary Look up at a clear night sky, and one can see that there are countless celestial bodies beyond our humble solar system. Have you ever wondered how many of those bodies are actual planets? Astronomers certainly have. The NASA Exoplanet Archive&#xD;hosts a repository of exoplanet&#xD;data collected by the Keplar Space Telescope&#xD;. The telescope was in use for over nine years from March 7, 2009 through its retirement on October 30, 2018.</description>
+    </item>
+    <item>
       <title>Weather and Vacation API</title>
       <link>https://jgabunilas.onrender.com/projects/project-3-vacation/</link>
       <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
@@ -30,18 +37,11 @@
       <description>View this project on GitHub&#xD;Introduction The Monty Hall problem is a classic problem in probability theory. Modeled as a game of chance and named after the eponymous game show host Monty Hall&#xD;, it has sparked debate, discussion, and discourse between academics and laypeople alike.&#xA;This simple exercise is a Python implementation of the Monty Hall problem with two primary features:&#xA;A functional implementation which allows the user to play through the game A simulator that runs through a chosen number of iterations of the game and sisplays the outcomes based on the parameters selected by the user.</description>
     </item>
     <item>
-      <title>Chapter II: Pierre Gringoire</title>
-      <link>https://jgabunilas.onrender.com/projects/chapter-2/</link>
-      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/chapter-2/</guid>
-      <description>Nevertheless, as be harangued them, the satisfaction and admiration unanimously excited by his costume were dissipated by his words; and when he reached that untoward conclusion: “As soon as his illustrious eminence, the cardinal, arrives, we will begin,” his voice was drowned in a thunder of hooting.&#xA;“Begin instantly! The mystery! the mystery immediately!” shrieked the people. And above all the voices, that of Johannes de Molendino was audible, piercing the uproar like the fife’s derisive serenade: “Commence instantly!</description>
-    </item>
-    <item>
       <title>About Me</title>
       <link>https://jgabunilas.onrender.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jgabunilas.onrender.com/about/</guid>
-      <description>Nice to meet you! My name is Jason and I&amp;rsquo;m a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.&#xA;When I&amp;rsquo;m not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I am spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong learner, my eventual goal is to apply these proficiencies to my professional work in biotechnology and to accelerate the development and commercialization of medicines for those who need them the most.</description>
+      <description>Nice to meet you! My name is Jason and I&amp;rsquo;m a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.&#xA;When I&amp;rsquo;m not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong learner, my eventual goal is to apply these proficiencies to my professional work in biotechnology and to accelerate the development and commercialization of medicines for those who need them the most.</description>
     </item>
     <item>
       <title>Contact</title>

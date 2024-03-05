@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Exoplanet Classifier | Jason Gabunilas</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="A Machine Learning Space Odyssey">
+    <meta name="generator" content="Hugo 0.123.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://jgabunilas.onrender.com/projects/project-4-exoplanets/">
+    
+
+    <meta property="og:title" content="Exoplanet Classifier" />
+<meta property="og:description" content="A Machine Learning Space Odyssey" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jgabunilas.onrender.com/projects/project-4-exoplanets/" /><meta property="article:section" content="projects" />
+
+
+
+<meta itemprop="name" content="Exoplanet Classifier">
+<meta itemprop="description" content="A Machine Learning Space Odyssey">
+
+<meta itemprop="wordCount" content="1346">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Exoplanet Classifier"/>
+<meta name="twitter:description" content="A Machine Learning Space Odyssey"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('/projects/project-4-exoplanets/exoplanet.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Jason Gabunilas
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/jgabunilas" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/jason-gabunilas/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Exoplanet Classifier</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              A Machine Learning Space Odyssey
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Projects
+      </aside>
+      
+      <h1 class="f1 athelas mt3 mb1">Exoplanet Classifier</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h5 id="view-this-project-on-githubhttpsgithubcomjgabunilasexoplanet-classification">
+
+<a href="https://github.com/jgabunilas/exoplanet-classification" target="_blank" >View this project on GitHub</a>
+</h5>
+<h2 id="project-summary">Project Summary</h2>
+<p>Look up at a clear night sky, and one can see that there are countless celestial bodies beyond our humble solar system. Have you ever wondered how many of those bodies are actual planets? Astronomers certainly have. The 
+
+<a href="https://exoplanetarchive.ipac.caltech.edu/docs/data.html" target="_blank" >NASA Exoplanet Archive</a>
+ hosts a repository of 
+
+<a href="https://en.wikipedia.org/wiki/Exoplanet" target="_blank" >exoplanet</a>
+ data collected by the 
+
+<a href="https://en.wikipedia.org/wiki/Kepler_space_telescope" target="_blank" >Keplar Space Telescope</a>
+. The telescope was in use for over nine years from March 7, 2009 through its retirement on October 30, 2018. Over that span, the telecope observed over half a million stars and detected over 2500 exoplanets.</p>
+<p>Planetary data collected by various means (including the telescope) has been used to classify Keplar objects of interest (KOIs) as confirmed exoplants, candidates, and false positives. Classifications are assigned based on over two dozen characteristics/features. A full table of the data, including definitions for each of the features, can be found at the archive 
+
+<a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&amp;config=cumulative" target="_blank" >here</a>
+.</p>
+<p>This objective of this exercise is to utilize machine learning methods, specifically the 
+
+<a href="https://scikit-learn.org/stable/" target="_blank" >Scikitlearn</a>
+ library in Python, to solve a classification problem of stellar proportions (pun intended). The approach makes use of Numpy, Pandas, Scikitlearn, and 
+
+<a href="https://www.tensorflow.org/" target="_blank" >TensorFlow</a>
+ via 
+
+<a href="https://keras.io/guides/sequential_model/" target="_blank" >Keras</a>
+.</p>
+<h2 id="approach-1---random-forest-classifier">Approach 1 - Random Forest Classifier</h2>
+<p>The 
+
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html" target="_blank" >random forest classifier</a>
+ was selected as the first classification approach due to its robustness. Outline of steps:</p>
+<ol>
+<li>The data was pre-processed into usable form for the random forest algorithm
+<ul>
+<li>The data from the CSV file was imported using Pandas</li>
+<li>All columns from the data frame except for &lsquo;koi_tce_plnt_num&rsquo; and &lsquo;koi_disposition&rsquo; were assigned as features (<code>X</code>). Thus, this approach assumes that the Threshold-Crossing Event (TCE) planet number is a descriptive label that does not factor into the exoplanet classification.</li>
+<li>The disposition column of the data frame (<code>koi_disposition</code>) was assigned as the <code>y</code>.</li>
+<li>The data was split into training and test sets using <code>train_test_split</code>.</li>
+<li>The training and testing feature data (<code>X_train</code> and <code>X_test</code>), all of which was numeric, was scaled using <code>MinMaxScaler</code>, creating the scaled parameters <code>X_train_scaled</code> and <code>X_test_scaled</code>.</li>
+</ul>
+</li>
+<li>The <code>RandomForestClassifier</code> was invoked and fitted to the scaled X training and y training data with 200 trees being constructed for the forest. 75% of the dataset was allocated to training while the remainder was allocated to the test set.</li>
+<li>The model was tested against the test data</li>
+<li>The <code>feature_importances_</code> property of the classifier was used to identify the most influential features of the the dataset, only the top 4 of which had importances of over 10%. The remaining features were below 3% importance.</li>
+<li>The model was re-tuned using the top 10 most important parameters</li>
+<li>The re-tuned model was then subject to hyperparameter tuning using the <code>GridSearchCV</code> function. The following parameters and levels were selected for exploration (explanation of the parameters can be found in the 
+
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html?highlight=randomforest#sklearn.ensemble.RandomForestClassifier" target="_blank" >documentation</a>
+):
+<ul>
+<li>n_estimators: 200, 400</li>
+<li>min_samples_split: 2, 4, 8</li>
+<li>min_samples_leaf: 4, 8, 12</li>
+<li>max_features: None, &lsquo;auto&rsquo;</li>
+</ul>
+</li>
+<li>Following grid fitting, the re-fitted model was tested against the test data with the recommended parameters.</li>
+<li>The model was saved using <code>joblib</code>.</li>
+</ol>
+<h3 id="results">Results</h3>
+<p>The initial model scored very strongly (100%) when evaluated against the training data and a respectable <strong>88.90%</strong> when evaluated against the test data. As previously mentioned, only four features scored higher than 10% in importance, with the majority of features scoring less than 1%.
+When the model was re-run with only the top 10 most important features, the testing score rose by a negligable amount to <strong>88.96%</strong>. Interestingly, hyperparameter tuning with GridSearch had a negative effect on the training data score, yielding a best score of <strong>89.49%</strong> The testing data score on the hypertuned model was <strong>88.84%</strong>, which was marginally worse than the non-tuned, reduced model and the original full-feature model. It remains possible that more refined hyperparameter tuning could improve the model even further, for example by implementing 
+
+<a href="https://towardsdatascience.com/optimizing-hyperparameters-in-random-forest-classification-ec7741f9d3f6" target="_blank" >validation curves</a>
+. However, the greatest improvements in the model are likely to be gained by gathering more data.</p>
+<h2 id="approach-2---deep-learning-neural-network">Approach 2 - Deep Learning Neural Network</h2>
+<p>The deep learning neural network is a power, if not quite well understood, method for classification. It was selected here due to the ease of adding additional layers to make the algorithm more powerful. Outline of steps:</p>
+<ol>
+<li>The data was pre-processed similarly to the Random Forest approach above. However, the 
+
+<a href="https://keras.io/guides/sequential_model/" target="_blank" ><code>Sequential</code> model</a>
+ in Keras requires <code>y</code> to be encoded as a binary numpy array. This was accomplished by using the <code>LabelEncoder</code> from Scikitlearn to convert the <code>y_train</code> and <code>y_test</code> categorical data into compatible arrays.</li>
+<li>The initial sequential neural network model was constructed with a single hidden layer of <strong>100</strong> nodes. There were <strong>39</strong> input features and three outputs (one for each of the three types of binary arrays representing the categorical exoplanet classification).</li>
+<li>The model was fit to the X and y training data with shuffling and 100 epochs.</li>
+<li>The fit model was evaluated against the test data.</li>
+<li>Based on the results of steps 3-4, a new model was constructed with two additional hidden layers of 100 nodes each. The model was fit to the same training data with shuffling and 100 epochs.</li>
+<li>The model as saved using the keras <code>save</code> method for Sequential models.</li>
+</ol>
+<h3 id="results-1">Results</h3>
+<p>When fitted to the training data, the initial neural network model with a single layer of 100 nodes achieved a remarkable accuracy of <strong>89.07%</strong> by epoch 100. When evaluated against the test data, the model demonstrated an accuracy of <strong>89.30%</strong>, which was just slightly higher than random forest models.
+By adding two additional hidden layers of 100 nodes each, the accuracy of the model on the training data increased to <strong>90.14%</strong> by epoch 100. However, the deeper neural network revealed an accuracy of <strong>88.22%</strong> when evaluated against the test data. While this was just marginally less accurate than the &ldquo;shallower&rdquo; model, it suggests that deeper is not always better. The model may have been overfit to the training data.</p>
+<h2 id="approach-3---k-nearest-neighbors">Approach 3 - K Nearest Neighbors</h2>
+<p>As a more tangible comparison to the random forest, a model was also constructed using the 
+
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html#sklearn.neighbors.NearestNeighbors.radius_neighbors" target="_blank" >K Nearest Neighbors</a>
+ algorithm. Outline of steps:</p>
+<ol>
+<li>The data was pre-processed similarly to the Random Forest approach above</li>
+<li>The <code>KNeighborsClassifier</code> was invoked and executed on the training and testing data for <code>n_neighbors</code> from 1 to 100 counting by 2. For each iteration the training and testing scores were calculated using the <code>.score</code> method on the classifier.</li>
+<li>Once an optimal <em>k</em> (n_neighbors) was selected from step 2, hyperparametric tuning was performed in an attempt to increase the model&rsquo;s accuracy, again using <code>GridSearchCV</code>. The following parameters and levels were selected for tuning (explanation of the parameters can be found in the 
+
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html#sklearn.neighbors.NearestNeighbors" target="_blank" >documentation</a>
+)
+<ul>
+<li>algorithm: &lsquo;ball_tree&rsquo;, &lsquo;kd_tree&rsquo;, &lsquo;brute&rsquo;</li>
+<li>leaf_size: 10, 30, 60, 90, 120</li>
+<li>p: 1, 2</li>
+</ul>
+</li>
+<li>The retuned model was evaluated against the test data with with the recommended parameters.</li>
+<li>The model was saved using <code>joblib</code>.</li>
+</ol>
+<h3 id="results-2">Results</h3>
+<p>The initial model was fitted to the same training dataset as the random forest and neural network models, iterating over a range of <code>n_neighbor</code>s (<em>k</em>) values. Training accuracy scores gradually decreased with increasing <em>k</em>, while the test accuracy scores peaked at <em>k=13</em> and gradually decreased thereafter. The highest testing score achieved was <strong>82.6%</strong> at <em>k=13</em>.
+Hyperparameter tuning with different leaf sizes, p values, and algorithms produced a model that scored <strong>83.16%</strong> accuracy against the test data, achieved when the <code>ball_tree</code> model was used with <code>p=1</code> and <code>leaf_size = 10</code>. The hypertuned model&rsquo;s performance on the testing data was actually marginally higher at <strong>83.18%</strong>.</p>
+<h2 id="conclusions-and-future-directions">Conclusions and Future Directions</h2>
+<p>This was a successful initial foray into the application of machine learning algorithms to a real-world (or perhaps more appropriately, &ldquo;real out of this world&rdquo;) classification problem. While &ldquo;shallow&rdquo; neural network model demonstrated the best performance with this dataset, it performed only marginally better than the random forest model. The K-nearest-neighbor model was the least accurate of the three.</p>
+<p>As discussed in 
+
+<a href="https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/" target="_blank" >this article</a>
+, the <strong>accuracy</strong> of a classification model alone is an oftentimes insufficient measure of its ability to make meaningful predictions, particularly with imbalanced data sets. Other performance metrics, including <strong>precision</strong> and <strong>recall</strong>, should also be evaluated. Future iterations of this exercise should account for these metrics in order to determine the best model for exoplanet classification.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jgabunilas.onrender.com/" >
+    &copy;  Jason Gabunilas 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/jgabunilas" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/jason-gabunilas/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
