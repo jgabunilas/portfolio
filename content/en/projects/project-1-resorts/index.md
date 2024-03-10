@@ -27,7 +27,7 @@ The first tab of the application presents the user with an interactive global ma
 <!-- {{< figure src="/images/resorts/resort-finder.png" >}} -->
 <!-- ![](/JG_portfolio/images/resorts/resort-finder.png) -->
 <!-- ![]({{ relURL "/images/resorts/resort-finder.png" }}) -->
-![](resort-finder.png)
+[![](resort-finder.png)](https://jgabunilas.github.io/images/resort-finder.png)
 
 The underlying data is obtained from a spreadsheet that contains information pertaining to hundreds of ski resorts around the world, including but not limited to:
 - Resort name
@@ -50,7 +50,7 @@ The selected price and options are passed to a callback function that filters th
 <!-- {{< figure src="/images/resorts/resort-finder-map.png" >}}  -->
 <!-- {{< figure src="/images/resorts/resort-finder-map.png" >}}  -->
 <!-- ![](/JG_portfolio/images/resorts/resort-finder-map.png) -->
-![](resort-finder-map.png)
+[![](resort-finder-map.png)](https://jgabunilas.github.io/images/resort-finder-map.png)
 
 
 ## Part 2: Resort Rankings
@@ -59,7 +59,7 @@ The second tab of the application displays a bar graph showing the "top" ski res
 
 <!-- {{< figure src="/images/resorts/resort-rankings.png" >}}  -->
 <!-- ![](/JG_portfolio/images/resorts/resort-rankings.png) -->
-![](resort-rankings.png)
+[![](resort-rankings.png)](https://jgabunilas.github.io/images/resort-rankings.png)
 
 First, the user selects a Continent, Country, and ranking Metric from the provided dropdown menus. The **Country** dropdown menu is dynamic and changes based on the selection made from the **Continent** dropdown menu. This behavior is handled by a dedicated callback function that accepts the input from the **Continent** dropdown menu and filters the options available in the **Country** dropdown accordingly. 
 

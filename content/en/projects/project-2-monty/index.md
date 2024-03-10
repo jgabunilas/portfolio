@@ -62,7 +62,7 @@ The basic outline of the program is as follows:
 5. The player is prompted via `input()` to choose whether to switch to the remaining unopened door ("y") or stay with the original chosen door ("n"). Again, data validation ensures the integrity of the entry.
 6. The final door that the player has chosen is opened, and the prize is revealed. Additionally, the player is informed of whether a car or a goat was behind the door that was selected at the beginning of the game.
 
-![](manual_play.jpg)
+[![](manual_play.jpg)](https://jgabunilas.github.io/images/manual_play.JPG)
 
 ---
 
@@ -87,7 +87,7 @@ The basic outline of the program is as follows:
 8. The program prints out the total numbers and percentages of car and goat prizes.
 9. The program creates a Pandas dataframe with **Total Prizes** and **Percent** and uses this frame to create a simple bar graph that plots the number of car and goat prizes based on the number of simulations run.
 
-![](simulation.jpg)
+[![](simulation.jpg)](https://jgabunilas.github.io/images/simulation.JPG)
 
 ![](prize_plot.jpeg)
 

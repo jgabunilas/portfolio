@@ -36,5 +36,12 @@
       <guid>https://jgabunilas.onrender.com/projects/project-2-monty/</guid>
       <description>View this project on GitHub&#xD;Introduction The Monty Hall problem is a classic problem in probability theory. Modeled as a game of chance and named after the eponymous game show host Monty Hall&#xD;, it has sparked debate, discussion, and discourse between academics and laypeople alike.&#xA;This simple exercise is a Python implementation of the Monty Hall problem with two primary features:&#xA;A functional implementation which allows the user to play through the game A simulator that runs through a chosen number of iterations of the game and displays the outcomes based on the parameters selected by the user.</description>
     </item>
+    <item>
+      <title>Quotes Guessing Game</title>
+      <link>https://jgabunilas.onrender.com/projects/project-5-quotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jgabunilas.onrender.com/projects/project-5-quotes/</guid>
+      <description>View this project on GitHub&#xD;Introduction A quote guessing game showcasing webscraping, HTML requests, and game logic.&#xA;This exercise is a coding challenge that is part of The Modern Python 3 Bootcamp&#xD;course taught by Colt Steele.&#xA;The exercise utilizes the BeautifulSoup&#xD;webscraping library to obtain famous (or not-so-famous) quotes from the website Quotes To Scrape&#xD;. The quotes are collected and used in a guessing game in which the player attempts to guess the author of the quote.</description>
+    </item>
   </channel>
 </rss>

@@ -71,7 +71,7 @@ Perhaps more interesting than the weather information are the actual decisions o
 
 2. A humidity heatmap is generated using the `gmaps` library. The latitude and longitude coordinates as well as the humidity data for the cities in the dataframe are passed to the `heatmap_layer` function to create heatmap visualizing the humidity data for each city.
 
-![humidity heatmap](humidity_heatmap.PNG) 
+[![humidity heatmap](humidity_heatmap.PNG)](https://jgabunilas.github.io/images/humidity_heatmap.PNG)
 
 4. The `cities_df` dataframe is filtered into a new dataframe called `ideal_weather` using Pandas to filter the cities by the weather preferences. For this exercise the following conditions were applied:
 - Maximum temperature between 68 and 80 degrees F
@@ -87,4 +87,4 @@ Perhaps more interesting than the weather information are the actual decisions o
 
 7. Finally, `gmaps` is used to add a marker layer to the humidity heatmap created in step (2). The markers indicate the locations of the top cities matching the filtered weather preferences. When clicked, the hotel name, city, and country are displayed.  
 
-![markers](hotel_markers.PNG)
+[![markers](hotel_markers.PNG)](https://jgabunilas.github.io/images/hotel_markers.PNG)
