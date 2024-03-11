@@ -9,4 +9,4 @@ menu: main
 ---
 
 
-I would love to hear from you! Please feel free to contact me directly via [LinkedIn](https://www.linkedin.com/in/jason-gabunilas/).
+I would love to hear from you! Please feel free to send me message via [LinkedIn](https://www.linkedin.com/in/jason-gabunilas/).

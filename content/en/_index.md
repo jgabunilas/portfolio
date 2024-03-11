@@ -10,4 +10,6 @@ cascade:
 
 Thank you for visiting my programming and data science portfolio page! Please use the links at the top of the page to navigate around.  You can also go directly to one of my projects using the links below.
 
+Please note that all images featured on this page are original or royalty-free.
+
 

@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Jason Gabunilas</title>
-    <link>https://jgabunilas.onrender.com/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Jason Gabunilas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Apr 2017 11:13:32 -0400</lastBuildDate>
-    <atom:link href="https://jgabunilas.onrender.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ski Resort Explorer</title>
-      <link>https://jgabunilas.onrender.com/projects/project-1-resorts/</link>
+      <link>http://localhost:1313/projects/project-1-resorts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-1-resorts/</guid>
+      <guid>http://localhost:1313/projects/project-1-resorts/</guid>
       <description>View this project on GitHub&#xD;Project Summary The goal of this project was to construct a simulated ski resort explorer application that enables the user to perform the following tasks:&#xA;Identify ski resorts around the world that fit the user&amp;rsquo;s preferences Select ski resorts within a selected country and rank them according to a desired metric This application was constructed as the final project from the Python Data Visualization: Dashboards with Plotly &amp;amp; Dash&#xD;course from Udemy.</description>
     </item>
     <item>
       <title>Exoplanet Classifier</title>
-      <link>https://jgabunilas.onrender.com/projects/project-4-exoplanets/</link>
+      <link>http://localhost:1313/projects/project-4-exoplanets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-4-exoplanets/</guid>
+      <guid>http://localhost:1313/projects/project-4-exoplanets/</guid>
       <description>View this project on GitHub&#xD;Project Summary Look up at a clear night sky, and one can see that there are countless celestial bodies beyond our humble solar system. Have you ever wondered how many of those bodies are actual planets? Astronomers certainly have. The NASA Exoplanet Archive&#xD;hosts a repository of exoplanet&#xD;data collected by the Keplar Space Telescope&#xD;. The telescope was in use for over nine years from March 7, 2009 through its retirement on October 30, 2018.</description>
     </item>
     <item>
       <title>Weather and Vacation API</title>
-      <link>https://jgabunilas.onrender.com/projects/project-3-vacation/</link>
+      <link>http://localhost:1313/projects/project-3-vacation/</link>
       <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-3-vacation/</guid>
+      <guid>http://localhost:1313/projects/project-3-vacation/</guid>
       <description>View this project on GitHub&#xD;Project Summary This exercise analyzes various properties of local weather as a function of location, seeking to understand whether temperature, cloudiness, windiness, or humidity for a given city is correlated with its latitudinal positioning. It makes extensive use of the following tools:&#xA;Pandas - data cleanup and organization Matplotlib - data visualization Scipy - regression analysis Requests - API requests Part I: WeatherPy In the first part of this analysis, weather data retrieved from the OpenWeather API is organized to determine whether a city&amp;rsquo;s latitudinal position may be related to various properties of the weather.</description>
     </item>
     <item>
-      <title>The Monty Hall Problem</title>
-      <link>https://jgabunilas.onrender.com/projects/project-2-monty/</link>
+      <title>Social Media App Clone</title>
+      <link>http://localhost:1313/projects/project-6-igclone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-2-monty/</guid>
+      <guid>http://localhost:1313/projects/project-6-igclone/</guid>
+      <description>&#xD;View this project on GitHub&#xD;Introduction </description>
+    </item>
+    <item>
+      <title>The Monty Hall Problem</title>
+      <link>http://localhost:1313/projects/project-2-monty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-2-monty/</guid>
       <description>View this project on GitHub&#xD;Introduction The Monty Hall problem is a classic problem in probability theory. Modeled as a game of chance and named after the eponymous game show host Monty Hall&#xD;, it has sparked debate, discussion, and discourse between academics and laypeople alike.&#xA;This simple exercise is a Python implementation of the Monty Hall problem with two primary features:&#xA;A functional implementation which allows the user to play through the game A simulator that runs through a chosen number of iterations of the game and displays the outcomes based on the parameters selected by the user.</description>
     </item>
     <item>
       <title>Quotes Guessing Game</title>
-      <link>https://jgabunilas.onrender.com/projects/project-5-quotes/</link>
+      <link>http://localhost:1313/projects/project-5-quotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-5-quotes/</guid>
+      <guid>http://localhost:1313/projects/project-5-quotes/</guid>
       <description>View this project on GitHub&#xD;Introduction A quote guessing game showcasing webscraping, HTML requests, and game logic.&#xA;This exercise is a coding challenge that is part of The Modern Python 3 Bootcamp&#xD;course taught by Colt Steele.&#xA;The exercise utilizes the BeautifulSoup&#xD;webscraping library to obtain famous (or not-so-famous) quotes from the website Quotes To Scrape&#xD;. The quotes are collected and used in a guessing game in which the player attempts to guess the author of the quote.</description>
     </item>
   </channel>
