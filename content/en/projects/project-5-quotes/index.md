@@ -9,6 +9,11 @@ title: "Quotes Guessing Game"
 
 weight: 16
 ---
+
+A Python webscraping project with Beautifulsoup
+
+<!--more-->
+
 #### [View this project on GitHub](https://github.com/jgabunilas/quotes_game)
 
 ## Introduction

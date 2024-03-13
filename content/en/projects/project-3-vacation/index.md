@@ -6,6 +6,10 @@ tags: []
 title: "Weather and Vacation API"
 weight: 10
 ---
+
+An exercise in Python data wrangling and web APIs
+<!--more-->
+
 #### [View this project on GitHub](https://github.com/jgabunilas/python-api-challenge)  
 
 ## Project Summary 

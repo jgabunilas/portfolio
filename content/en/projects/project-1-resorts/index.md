@@ -6,6 +6,11 @@ featured_image: "/images/skilift.jpg"
 title: "Ski Resort Explorer"
 weight: 5
 ---
+
+An interactive Plotly Dash web application
+
+<!--more-->
+
 ##### [View this project on GitHub](https://github.com/jgabunilas/ski_resorts)
 
 ## Project Summary

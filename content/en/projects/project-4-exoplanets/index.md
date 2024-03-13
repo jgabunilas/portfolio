@@ -6,6 +6,9 @@ featured_image: "exoplanet.jpg"
 title: "Exoplanet Classifier"
 weight: 6
 ---
+A machine learning space odyssey with Scikitlearn, TensorFlow, and Keras
+<!--more-->
+
 ##### [View this project on GitHub](https://github.com/jgabunilas/exoplanet-classification)
 
 ## Project Summary

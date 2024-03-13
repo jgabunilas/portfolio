@@ -1,6 +1,6 @@
 ---
 # date: 2017-04-09T10:58:08-04:00
-description: "A Python implementation of the classic thought experiment"
+description: "A Python implementation of the classic probability puzzle"
 # featured_image: "/images/circularlogic_thumbnail_980x735.jpg"
 featured_image: "/images/LMADlogo.jpg"
 
@@ -9,6 +9,9 @@ title: "The Monty Hall Problem"
 
 weight: 15
 ---
+A Python implementation of the classic probability puzzle
+<!--more-->
+
 #### [View this project on GitHub](https://github.com/jgabunilas/monty-hall)
 
 ## Introduction
@@ -40,7 +43,7 @@ While there are multiple variations of the problem, most incarnations (and the o
 5. The player decides whether to stay with the current door or switch to the other unopened door.
 6. The host opens the final door selected by the player and the prize is revealed.
 
-The debate and discussion surrounding the problem stems from whether the player should switch doors after the host opens one of the doors with a goat in order to maximmize his or her chances of winning the car. The optimal solution to this incarnation of the problem can be reviewed in this [Wikipedia article](https://en.wikipedia.org/wiki/Monty_Hall_problem).  
+The debate and discussion surrounding the problem stems from whether the player should switch doors after the host opens one of the doors with a goat in order to maximize their chances of winning the car. The optimal solution to this incarnation of the problem can be reviewed in this [Wikipedia article](https://en.wikipedia.org/wiki/Monty_Hall_problem).  
 
 *Spoiler alert: the best choice to maximize your chance of winning the car is to switch doors when offered. If you don't believe this to be true now, perhaps you will after running the simulations in **Part 2** of this project.*
 

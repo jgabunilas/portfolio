@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Social Media App Clone | Jason Gabunilas</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="A relational database exercise">
+    <meta name="description" content="A SQL relational database exercise">
     <meta name="generator" content="Hugo 0.123.0">
     
     
@@ -30,22 +30,22 @@
     
 
     
-      <link rel="canonical" href="http://localhost:1313/projects/project-6-igclone/">
+      <link rel="canonical" href="https://jgabunilas.onrender.com/projects/project-6-igclone/">
     
 
     <meta property="og:title" content="Social Media App Clone" />
-<meta property="og:description" content="A relational database exercise" />
+<meta property="og:description" content="A SQL relational database exercise" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/projects/project-6-igclone/" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="https://jgabunilas.onrender.com/projects/project-6-igclone/" /><meta property="article:section" content="projects" />
 
 
 
 <meta itemprop="name" content="Social Media App Clone">
-<meta itemprop="description" content="A relational database exercise">
+<meta itemprop="description" content="A SQL relational database exercise">
 
-<meta itemprop="wordCount" content="6">
+<meta itemprop="wordCount" content="1065">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Social Media App Clone"/>
-<meta name="twitter:description" content="A relational database exercise"/>
+<meta name="twitter:description" content="A SQL relational database exercise"/>
 
 	
   </head>
@@ -132,7 +132,7 @@
           <div class="f2 f1-l fw2 white-90 mb0 lh-title">Social Media App Clone</div>
           
             <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              A relational database exercise
+              A SQL relational database exercise
             </div>
           
         
@@ -160,12 +160,130 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h4 id="view-this-project-on-githubhttpsgithubcomjgabunilasquotes_game">
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>A SQL relational database exercise</p>
+<h4 id="view-project-files-in-githubhttpsgithubcomjgabunilasmysql_bootcamptreemainsection2014-1520-20instagram20database20clone">
 
-<a href="https://github.com/jgabunilas/quotes_game" target="_blank" >View this project on GitHub</a>
+<a href="https://github.com/jgabunilas/mysql_bootcamp/tree/main/Section%2014-15%20-%20Instagram%20Database%20Clone" target="_blank" >View project files in Github</a>
 </h4>
 <h2 id="introduction">Introduction</h2>
-<ul class="pa0">
+<p>In this project, we construct a relational database is construction that is intended to mimic the basic functionality of a social media application. First, the database tables defined, with key relationships established between them to enable the desired functionalities and enforce data integrity. Next, the tables are loaded with fictional data representing users, objects and actions for a typical social media site, including Likes, Comments, Photos, and Follows. Lastly, SQL commands are used to explore the data and answer pertinent questions about the application and the behavior of its users.</p>
+<p>This exercise was completed as part of the 
+
+<a href="https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/" target="_blank" >Ultimate MySQL Bootcamp</a>
+ course taught be Colt Steele.</p>
+<hr>
+<h2 id="part-i-defining-the-database-schema">Part I: Defining the Database Schema</h2>
+<p>The overall schema for the database is as follows:</p>
+<p>
+
+<a href="https://jgabunilas.github.io/images/db_schema.JPG" target="_blank" ><img src="/projects/project-6-igclone/db_schema.JPG"></a>
+</p>
+<p>The individual tables were designed as follows:</p>
+<h3 id="users">users</h3>
+<p><img src="/projects/project-6-igclone/users.JPG"></p>
+<p>The <code>users</code> table represents the users of the social media application and contains three columns:</p>
+<ul>
+<li><strong>id</strong>: a unique integer id for the user which also serves as a <em>primary key</em>. Additionally, the user id is a <em>foreign key</em> for many of the other tables.</li>
+<li><strong>username</strong>: the username for the user. A username is required.</li>
+<li><strong>created_at</strong>: a timestamp that indicates when the user was added to the database. Defaults to the current time</li>
+</ul>
+<h3 id="photos">photos</h3>
+<p><img src="/projects/project-6-igclone/photos.JPG"></p>
+<p>The <code>photos</code> table represents the photos that are posted to the application and contains four columns:</p>
+<ul>
+<li><strong>id</strong>: a unique integer id for the photo which also serve as a <em>primary key</em></li>
+<li><strong>image_url</strong>: the URL where the image is located. A URL is required.</li>
+<li><strong>user_id</strong>: the user to whom the photo belongs. This is a required field in order to avoid &ldquo;orphan photos&rdquo; with no owners. It is also a <em>foreign key</em> that references <code>users.id</code>, such that the owner must be an existing user of the application.</li>
+<li><strong>created_at</strong>: a timestamp that indicates when the photo was added</li>
+</ul>
+<h3 id="comments">comments</h3>
+<p><img src="/projects/project-6-igclone/comments.JPG"></p>
+<p>The <code>comments</code> table tracks comments that users make on photos. It contains three columns:</p>
+<ul>
+<li><strong>id</strong>: a unique integer id for the comment</li>
+<li><strong>comment_text</strong>: the textual content of the comment</li>
+<li><strong>photo_id</strong>: the id of the photo for which the comment has been left. It is a <em>foreign key</em> that references <code>photos.id</code>.</li>
+<li><strong>user_id</strong>: the id of the user who has left the comment. It is a <em>foreign key</em> that references <code>users.id</code>.</li>
+<li><strong>created_at</strong>: a timestamp that indicates when the comment was created</li>
+</ul>
+<h3 id="likes">likes</h3>
+<p><img src="/projects/project-6-igclone/likes.JPG"></p>
+<p>The <code>likes</code> table tracks the likes that users give to photos. It contains three columns:</p>
+<ul>
+<li><strong>user_id</strong>: the id of the user who is giving the like. It is a <em>foreign key</em> that references <code>users.id</code>. It also forms a <em>composite key</em> with <strong>photo_id</strong>.</li>
+<li><strong>photo_id</strong>: the id of the photo to which the like is given. It is a <em>foreign key</em> tha references <code>photos.id</code>. It also forms a <em>composite key</em> with <strong>user_id</strong>.</li>
+<li><strong>created_at</strong>: a timestamp that indicates when the like was given</li>
+</ul>
+<h3 id="follows">follows</h3>
+<p><img src="/projects/project-6-igclone/follows.JPG"></p>
+<p>The <code>follows</code> table tracks which users are followed by other users on the social media application. It consists of three columns:</p>
+<ul>
+<li><strong>follower_id</strong>: the user id of the user who is following another user. It is a <em>foreign key</em> that references <code>users.id</code>. It also forms a <em>composite key</em> with <strong>followee_id</strong>.</li>
+<li><strong>followee_id</strong> the user id of the user who is being followed. It is a <em>foreign key</em> that references <code>users.id</code>. It also forms a <em>composite key</em> with <strong>follower_id</strong>.</li>
+<li><strong>created_at</strong>: a timestamp that indicates when the follower began following the followee</li>
+</ul>
+<p>If a user attempts to follow themselves, the following <em>database trigger</em> prevents them from doing so:</p>
+<pre tabindex="0"><code>DELIMITER $$
+
+CREATE TRIGGER prevent_self_follows
+     BEFORE INSERT ON follows FOR EACH ROW
+     BEGIN
+         IF NEW.follower_id = NEW.followee_id
+         THEN   
+             SIGNAL SQLSTATE &#39;45000&#39;
+                 SET MESSAGE_TEXT = &#34;You cannot follow yourself.&#34;;
+         END IF;
+     END;
+$$
+
+DELIMITER ;
+</code></pre><h3 id="unfollows">unfollows</h3>
+<p><img src="/projects/project-6-igclone/unfollows.JPG"></p>
+<p>The <code>unfollows</code> table allows us to track when users decide to unfollow other users. It consists of three columns:</p>
+<ul>
+<li><strong>follower_id</strong>: the user id of the user who unfollows another user. It is a <em>foreign key</em> that references <code>users.id</code>. It also forms a <em>composite key</em> with <strong>followee_id</strong>.</li>
+<li><strong>followee_id</strong> the user id of the user who is unfollowed by another user. It is a <em>foreign key</em> that references <code>users.id</code>. It also forms a <em>composite key</em> with <strong>follower_id</strong>.</li>
+<li><strong>created_at</strong>: a timestamp that indicates when the follower stopped following the followee.</li>
+</ul>
+<p>When a row is deleted from the <code>follows</code> table (thereby indicating that an unfollow has occured), the following <em>database trigger</em> adds the deleted follower/followee pair to the <code>unfollows</code> table:</p>
+<pre tabindex="0"><code>CREATE TRIGGER create_unfollow
+    AFTER DELETE ON follows FOR EACH ROW 
+BEGIN
+    INSERT INTO unfollows
+    SET follower_id = OLD.follower_id,
+        followee_id = OLD.followee_id;
+END$$
+</code></pre><h3 id="tags">tags</h3>
+<p><img src="/projects/project-6-igclone/tags.JPG"></p>
+<p>The <code>tags</code> table catalogs the unique tags (commonly known as <em>hashtags</em> in popular social media applications) that are available for users to apply to photos. It consists of two columns:</p>
+<ul>
+<li><strong>id</strong>: the unique intteger id of the tag. It is a <em>primary key</em>.</li>
+<li><strong>tag_name</strong>: the textual name of the tag</li>
+<li><strong>created_at</strong>: a timestemp that indicates when the tag was created</li>
+</ul>
+<h3 id="photo_tags">photo_tags</h3>
+<p><img src="/projects/project-6-igclone/photo_tags.JPG"></p>
+<p>The <code>photo_tags</code> table tracks which tags have been applied to which photos in the <code>photos</code> table. In this way, the <code>photo_tags</code> table relates to the tags to the photos. It consists of two columns:</p>
+<ul>
+<li><strong>photo_id</strong>: the id of the photo to which the tag has been applied. It is a <em>foreign key</em> that references <code>photos.id</code>. It also forms a <em>composite key</em> with <strong>tag_id</strong>.</li>
+<li><strong>tag_id</strong>: the id of the tag that has been applied to the photo. It is a <em>foreign key</em> that references <code>tags.id</code>. It also forms a <em>composite key</em> with <strong>photo_id</strong>.</li>
+</ul>
+<hr>
+<h2 id="part-2-populating-the-database">Part 2: Populating the Database</h2>
+<p>The database tables are next populated with a large set of fictional data representing users, photos, comments, likes, and so forth. The data can be viewed 
+
+<a href="https://github.com/jgabunilas/mysql_bootcamp/blob/main/Section%2014-15%20-%20Instagram%20Database%20Clone/ig_clone_data.sql" target="_blank" >here</a>
+.</p>
+<hr>
+<h2 id="part-3-insights">Part 3: Insights</h2>
+<p>The relational is now populated database can be explored to develop new insights about the users and contents of the application.</p>
+<h4 id="longest-tenured-users">Longest-tenured users</h4>
+<p>To determine the users who have been using the application the longest, we need only explore the <code>users</code> table.
+<img src="/projects/project-6-igclone/longest-users.JPG"></p>
+<h4 id="choosing-a-day-for-targeted-advertisting-at-new-users">Choosing a day for targeted advertisting at new users</h4>
+<p>Suppose our goal is to launch a new advertising campaign that will reach the greatest number of <em>new</em> users.  Again, all of the data we need is contained with the <code>users</code> table, where we can use series of string commands to count how many times a new registration timestamp was created on each day of the week.</p>
+<p><img src="/projects/project-6-igclone/registration-day.JPG"></p>
+<p>The data suggests that an ad will be seen by most new users on a Thursday or a Sunday.</p><ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
@@ -186,7 +304,7 @@
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jgabunilas.onrender.com/" >
     &copy;  Jason Gabunilas 2024 
   </a>
     <div>
