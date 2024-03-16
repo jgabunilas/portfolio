@@ -43,7 +43,7 @@
 <meta itemprop="name" content="Social Media App Clone">
 <meta itemprop="description" content="A SQL relational database exercise">
 
-<meta itemprop="wordCount" content="1065">
+<meta itemprop="wordCount" content="1670">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Social Media App Clone"/>
 <meta name="twitter:description" content="A SQL relational database exercise"/>
 
@@ -257,7 +257,7 @@ END$$
 <p><img src="/projects/project-6-igclone/tags.JPG"></p>
 <p>The <code>tags</code> table catalogs the unique tags (commonly known as <em>hashtags</em> in popular social media applications) that are available for users to apply to photos. It consists of two columns:</p>
 <ul>
-<li><strong>id</strong>: the unique intteger id of the tag. It is a <em>primary key</em>.</li>
+<li><strong>id</strong>: the unique integer id of the tag. It is a <em>primary key</em>.</li>
 <li><strong>tag_name</strong>: the textual name of the tag</li>
 <li><strong>created_at</strong>: a timestemp that indicates when the tag was created</li>
 </ul>
@@ -280,10 +280,33 @@ END$$
 <h4 id="longest-tenured-users">Longest-tenured users</h4>
 <p>To determine the users who have been using the application the longest, we need only explore the <code>users</code> table.
 <img src="/projects/project-6-igclone/longest-users.JPG"></p>
-<h4 id="choosing-a-day-for-targeted-advertisting-at-new-users">Choosing a day for targeted advertisting at new users</h4>
-<p>Suppose our goal is to launch a new advertising campaign that will reach the greatest number of <em>new</em> users.  Again, all of the data we need is contained with the <code>users</code> table, where we can use series of string commands to count how many times a new registration timestamp was created on each day of the week.</p>
+<h4 id="choosing-a-day-to-air-advertisements-to-new-users">Choosing a day to air advertisements to new users</h4>
+<p>Suppose our goal is to launch a new advertising campaign that will reach the greatest number of <em>new</em> users, but due to bandwidth issues we can only advertise one day per week. We are therefore interested in determining the day(s) on which new users sign up most frequently. Again, all of the necessary data is contained with the <code>users</code> table, where we can use series of string commands to count how many times a new registration timestamp was created on each day of the week.</p>
 <p><img src="/projects/project-6-igclone/registration-day.JPG"></p>
-<p>The data suggests that an ad will be seen by most new users on a Thursday or a Sunday.</p><ul class="pa0">
+<p>The data suggests that an ad will be seen by most new users on a Thursday or a Sunday.</p>
+<h4 id="find-users-who-have-never-posted-a-photo">Find users who have never posted a photo</h4>
+<p>We next want to send out an engagement email out to users who have registered for the application, but have never posted a photo. For this exercise we work with the <code>users</code> and <code>photos</code> tables. With the following table join, we can determine which users have no photos associated with their accounts</p>
+<p><img src="/projects/project-6-igclone/no-photos.JPG"></p>
+<h4 id="finding-the-most-popular-photo">Finding the most popular photo</h4>
+<p>Social media is all about popularity and getting as many <em>likes</em> as possible. To find which photo is the most popular, we perform a join on the <code>users</code>, <code>photos</code>, and <code>likes</code> tables. First, we join <code>users</code> and <code>photos</code> by the user id (many users will have more than one photo). Next, the <code>likes</code> table is joined to the combined <code>users</code>-<code>photos</code> table by photo id. Since photos can have more than one like, the resulting table will have duplicate rows for photos that received multiple likes. To count the likes, we group the replicates by <strong>username</strong> and <strong>photo_id</strong>, then perform a count on the groupings. By sorting and limiting the output, we determine the most popular photo, its owner, and how many likes it has received.</p>
+<p><img src="/projects/project-6-igclone/popular-photo.JPG"></p>
+<h4 id="calculating-how-many-photos-the-average-user-posts">Calculating how many photos the average user posts</h4>
+<p>Since this is photo-based social media application, we want to know how many photos our users are uploading, on average. We have enforced that all users and photos must be unique, and so we can calculate this by simply dividing the total number of photos by the total number of users.</p>
+<p><img src="/projects/project-6-igclone/average-photos.JPG"></p>
+<h4 id="determining-the-most-commonly-used-hashtags">Determining the most commonly-used hashtags</h4>
+<p>Hashtags can be annoying, but they serve a purpose. In our fictional application, we&rsquo;re interested in which of the tags our users are utilizing the most. We start by joining the <code>photo_tags</code> table with the <code>tags</code> table on the tag id. Because the same tag can be used for multiple photos, we next perform a <code>GROUP BY</code> on the <strong>tag_id</strong> and count the number of times each tag id occurs in the joined table (aliasing the sum as <strong>frequency</strong>). We can sort the results in descending order and limit the output to the tags with the highest counts. The final selection involves only the tag names and the number of occurrences of those tags.</p>
+<p><img src="/projects/project-6-igclone/popular-tags.JPG"></p>
+<h4 id="rooting-out-bots">Rooting out bots</h4>
+<p>Bots are unwelcome on social media applications, including ours. We therefore seek to root out bots by determine the users who have <em>liked every single photo within the application</em>. To find said bots, we need to make use of a few key pieces of information:</p>
+<ul>
+<li>The total number of photos in our database, which in our case is 257 photos.</li>
+<li>The fact that a user can only like each photo at most one time
+Thus, bot users (or perhaps real users who genuinely enjoy making people happy) will be those who have given the same number of <em>likes</em> as there are photos.</li>
+</ul>
+<p>The query itself is fairly simple. We join the <code>likes</code> and <code>users</code> table by user id, then gorup by <strong>user_id</strong> and count the number of times each user appears in the joined table. The users who have give the highest number of likes, equal to the number of photos in the database, are likely to be bots.</p>
+<p><img src="/projects/project-6-igclone/bots1.JPG"></p>
+<p>Instead of counting and sorting for the users giving out the most likes, an alternative approach is to directly count the number of photos and then using the <code>HAVING</code> function to select users who have given a number of likes equal to the number of total photos.</p>
+<p><img src="/projects/project-6-igclone/bots2.JPG"></p><ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">

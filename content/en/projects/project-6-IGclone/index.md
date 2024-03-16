@@ -118,7 +118,7 @@ END$$
 ![](tags.JPG)
 
 The `tags` table catalogs the unique tags (commonly known as *hashtags* in popular social media applications) that are available for users to apply to photos. It consists of two columns:
-- **id**: the unique intteger id of the tag. It is a *primary key*.
+- **id**: the unique integer id of the tag. It is a *primary key*.
 - **tag_name**: the textual name of the tag
 - **created_at**: a timestemp that indicates when the tag was created
 
@@ -143,10 +143,43 @@ The relational is now populated database can be explored to develop new insights
 To determine the users who have been using the application the longest, we need only explore the `users` table.
 ![](longest-users.JPG)
 
-#### Choosing a day for targeted advertisting at new users
-Suppose our goal is to launch a new advertising campaign that will reach the greatest number of *new* users.  Again, all of the data we need is contained with the `users` table, where we can use series of string commands to count how many times a new registration timestamp was created on each day of the week. 
+#### Choosing a day to air advertisements to new users
+Suppose our goal is to launch a new advertising campaign that will reach the greatest number of *new* users, but due to bandwidth issues we can only advertise one day per week. We are therefore interested in determining the day(s) on which new users sign up most frequently. Again, all of the necessary data is contained with the `users` table, where we can use series of string commands to count how many times a new registration timestamp was created on each day of the week. 
 
 ![](registration-day.JPG)
 
 The data suggests that an ad will be seen by most new users on a Thursday or a Sunday.
 
+#### Find users who have never posted a photo
+We next want to send out an engagement email out to users who have registered for the application, but have never posted a photo. For this exercise we work with the `users` and `photos` tables. With the following table join, we can determine which users have no photos associated with their accounts
+
+![](no-photos.JPG)
+
+#### Finding the most popular photo
+Social media is all about popularity and getting as many *likes* as possible. To find which photo is the most popular, we perform a join on the `users`, `photos`, and `likes` tables. First, we join `users` and `photos` by the user id (many users will have more than one photo). Next, the `likes` table is joined to the combined `users`-`photos` table by photo id. Since photos can have more than one like, the resulting table will have duplicate rows for photos that received multiple likes. To count the likes, we group the replicates by **username** and **photo_id**, then perform a count on the groupings. By sorting and limiting the output, we determine the most popular photo, its owner, and how many likes it has received.
+
+![](popular-photo.JPG)
+
+#### Calculating how many photos the average user posts
+Since this is photo-based social media application, we want to know how many photos our users are uploading, on average. We have enforced that all users and photos must be unique, and so we can calculate this by simply dividing the total number of photos by the total number of users. 
+
+![](average-photos.JPG)
+
+#### Determining the most commonly-used hashtags
+Hashtags can be annoying, but they serve a purpose. In our fictional application, we're interested in which of the tags our users are utilizing the most. We start by joining the `photo_tags` table with the `tags` table on the tag id. Because the same tag can be used for multiple photos, we next perform a `GROUP BY` on the **tag_id** and count the number of times each tag id occurs in the joined table (aliasing the sum as **frequency**). We can sort the results in descending order and limit the output to the tags with the highest counts. The final selection involves only the tag names and the number of occurrences of those tags.
+
+![](popular-tags.JPG)
+
+#### Rooting out bots
+Bots are unwelcome on social media applications, including ours. We therefore seek to root out bots by determine the users who have *liked every single photo within the application*. To find said bots, we need to make use of a few key pieces of information:
+- The total number of photos in our database, which in our case is 257 photos.
+- The fact that a user can only like each photo at most one time
+Thus, bot users (or perhaps real users who genuinely enjoy making people happy) will be those who have given the same number of *likes* as there are photos.  
+
+The query itself is fairly simple. We join the `likes` and `users` table by user id, then gorup by **user_id** and count the number of times each user appears in the joined table. The users who have give the highest number of likes, equal to the number of photos in the database, are likely to be bots.
+
+![](bots1.JPG)
+
+Instead of counting and sorting for the users giving out the most likes, an alternative approach is to directly count the number of photos and then using the `HAVING` function to select users who have given a number of likes equal to the number of total photos.
+
+![](bots2.JPG)
