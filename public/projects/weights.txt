@@ -1,0 +1,7 @@
+5. Ski resorts 
+6. Exoplants 
+10. Weather and Vacation API
+11. Social Media App Clone
+15. Monty Hall Problem
+16. Hangman
+17. Quotes Guessing Game

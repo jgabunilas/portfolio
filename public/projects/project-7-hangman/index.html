@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Hangman | Jason Gabunilas</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="A JavaScript twist on the classic word guessing game">
+    <meta name="generator" content="Hugo 0.123.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://jgabunilas.onrender.com/projects/project-7-hangman/">
+    
+
+    <meta property="og:title" content="Hangman" />
+<meta property="og:description" content="A JavaScript twist on the classic word guessing game" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jgabunilas.onrender.com/projects/project-7-hangman/" /><meta property="article:section" content="projects" />
+
+
+
+<meta itemprop="name" content="Hangman">
+<meta itemprop="description" content="A JavaScript twist on the classic word guessing game">
+
+<meta itemprop="wordCount" content="872">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Hangman"/>
+<meta name="twitter:description" content="A JavaScript twist on the classic word guessing game"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('/projects/project-7-hangman/letters.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Jason Gabunilas
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/jgabunilas" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/jason-gabunilas/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Hangman</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              A JavaScript twist on the classic word guessing game
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Projects
+      </aside>
+      
+      <h1 class="f1 athelas mt3 mb1">Hangman</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>A JavaScript twist on the classic word guessing game</p>
+<h4 id="view-this-project-on-githubhttpsgithubcomjgabunilashangman">
+
+<a href="https://github.com/jgabunilas/hangman" target="_blank" >View this project on Github</a>
+</h4>
+<h4 id="play-the-gamehttpsjgabunilasgithubiohangman">
+
+<a href="https://jgabunilas.github.io/hangman/" target="_blank" >Play the game</a>
+</h4>
+<h2 id="introduction">Introduction</h2>
+<p>This application is an interactive web-based implementation of the classic 
+
+<a href="https://en.wikipedia.org/wiki/Hangman_%28game%29" target="_blank" >Hangman</a>
+ game. In this game, the player is presented with an unknown word or phrase with no letters filled in and is only given information about the layout of the phrase, such as how many letters are in the phrase and how the words are spaced out. The player is allowed a limited number of letter guesses in order to determine the word or phrase. The player is also typically presented with an image of an empty gallows, onto which a stick figure is drawn as the player makes incorrect guesses.</p>
+<ul>
+<li>If the guessed letter is part of the phrase, that letter is uncovered in all applicable locations. The player is not penalized for a correct guess.</li>
+<li>If the guessed letter is not part of the phrase, the player is penalized one guess and an additional &ldquo;component&rdquo; of the stick figure is drawn in.</li>
+<li>If the player is able to guess all letters of the phrase without running out of incorrect guesses, the player wins the game.</li>
+<li>If the player runs out of guesses, the player loses the game and the image of the hanging stick figure is completed.</li>
+</ul>
+<p>The base version of this application is written in JavaScript and was constructed as part of the 
+
+<a href="https://www.udemy.com/course/modern-javascript/" target="_blank" >Modern JavaScript Bootcamp</a>
+ course by Andrew Mead. The simple illustrations were created by me.</p>
+<hr>
+<h2 id="gameplay-images">Gameplay Images</h2>
+<p>Game Start<br>
+<img alt="start" src="/projects/project-7-hangman/hangman_start.PNG"></p>
+<p>Game In Progress<br>
+<img alt="inprogress" src="/projects/project-7-hangman/hangman_in_progress.PNG"></p>
+<p>Victory<br>
+<img alt="win" src="/projects/project-7-hangman/hangman_win.PNG"></p>
+<p>Loss<br>
+<img alt="lose" src="/projects/project-7-hangman/hangman_lose.PNG"></p>
+<hr>
+<h2 id="application-details">Application Details</h2>
+<p>The application is split into three primary files that are described in greater detail below.</p>
+<h3 id="appjs">app.js</h3>
+<p>This is the primary script file containing the code responsible for the initialization of website and DOM elements. It defines functions for dynamically rendering the game to the page (<code>renderGame()</code>) and initializing the puzzle for the game (<code>startHangmanGame()</code>), and calls all the necessary methods to create the DOM representation for the puzzle (see <strong>hangman.js</strong> for additional details). Additionally, <strong>app.js</strong> contains event listeners for key presses (for registering letter guesses) and the reset button to restart the game with a new puzzle.</p>
+<h3 id="requestsjs">requests.js</h3>
+<p>This file contains a single used function, <code>getPuzzle()</code>, that queries a phrase-generating API. The API returns a JSON object containing the phrase to be used for the puzzle. The JSON is parsed to obtain the phrase, which is returned by the <code>getPuzzle()</code> function. <code>getPuzzle()</code> is called by the <code>startHangmanGame()</code> function in <strong>app.js</strong>.</p>
+<h3 id="hangmanjs">hangman.js</h3>
+<p>This hangman application utilizes object-oriented programming, treating each phrase used in the game as an instance object of the class <code>Hangman</code>. <strong>hangman.js</strong> defines all of properties and methods used by the <code>Hangman</code> class.</p>
+<ul>
+<li>The constructor function initializes the relavant properties of the instance, including the word, an empty array to collect the letters guessed, an integer variable tracking the number of incorrect guesses remaining, and the status of the game.</li>
+<li><code>Puzzle()</code>: a getter function that iterates over each letter in the phrase and determines whether it is in the array of guessed letters. If the letter has been guessed, then the letter will be appended to a <code>puzzle</code> string. If the letter has not been guessed, an asterisk will be appended instead. The constructed <code>puzzle</code> string with letters and/or asterisks is returned by the getter function.</li>
+<li><code>guessLetter()</code>: takes as an argument the letter that is guessed by the player via key press. Thus, it is called by the event handler that listens for key presses. If the game is still in session (the player has not yet lost), then <code>guessLetter()</code> adds the letter to the array of guessed letters if it is not already in that array. If the guessed letter is not in the puzzle phrase, the player is penalized by subtracing 1 from the number of incorrect guesses remaining</li>
+</ul>
+<pre tabindex="0"><code>this.attemptsRemaining --
+</code></pre><ul>
+<li><code>generatePuzzleDOM()</code>: creates an HTML <code>&lt;span&gt;</code> element for each letter in the puzzle</li>
+<li><code>generateStatusDOM()</code>: checks the status of the game (&ldquo;playing&rdquo;, &ldquo;failed&rdquo;, or &ldquo;finished&rdquo;) and generates a status message based on that status. If &ldquo;playing&rdquo;, the message displays the number of incorrect guesses remaining. If &ldquo;failed&rdquo;, the message reveals the phrase. If &ldquo;finished&rdquo;, the message congratulates the player for guessing the word or phrase. The status message is passed to the <code>#status-msg</code> DOM element to be displayed on the page.</li>
+<li><code>generateGuessedLettersDOM()</code>: checks whether the array of guessed letters has a length of 1 or greater. If so, the <code>#guessed-letters</code> DOM element is edited to display the array of guessed letters.</li>
+<li><code>statusMessage</code>: a getter function that returns the status of the game. The default status is &ldquo;playing&rdquo;, and this function will change the status to &ldquo;finished&rdquo; if there are no asterisks reamining in the puzzle (i.e. the player has successfully guessed all letters), or to &ldquo;failed&rdquo; if the <code>attemptsRemaining</code> variable has decreased to 0.</li>
+<li><code>updatePicture()</code> is called by the <code>renderGame()</code> function and ensures that the correct hanging figure image is displayed based on the number of incorrect guesses that have been made (or more precisely, the number of incorrect guesses that the player has remaining). The picture becomes progressively more &ldquo;complete&rdquo; as the player continues to make incorrect letter guesses. When applicable, the picture is updated by setting the <code>src</code> attribute of the <code>img</code> DOM element to the new picture filename.</li>
+</ul><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jgabunilas.onrender.com/" >
+    &copy;  Jason Gabunilas 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/jgabunilas" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/jason-gabunilas/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

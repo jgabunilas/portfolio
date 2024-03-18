@@ -7,7 +7,7 @@ featured_image: "quotes.png"
 # tags: ["scene"]
 title: "Quotes Guessing Game"
 
-weight: 16
+weight: 17
 ---
 
 A Python webscraping project with Beautifulsoup
