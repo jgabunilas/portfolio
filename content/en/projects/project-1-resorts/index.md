@@ -20,9 +20,9 @@ The goal of this project was to construct a simulated ski resort explorer applic
 - Select ski resorts within a selected country and rank them according to a desired metric
 
 
-This application was constructed as the final project from the [Python Data Visualization: Dashboards with Plotly & Dash](https://www.udemy.com/course/python-dashboards-plotly-dash/) course from Udemy. It primarily utilizes the [Plotly Express](https://plotly.com/python/plotly-express/) and [Dash](https://dash.plotly.com/) libraries. Additional aesthetic effects were achieved using the [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/) library. 
+This application was constructed as the final project from the [Python Data Visualization: Dashboards with Plotly & Dash](https://www.udemy.com/course/python-dashboards-plotly-dash/) course from Udemy. It primarily utilizes the [Plotly Express](https://plotly.com/python/plotly-express/) and [Dash](https://dash.plotly.com/) libraries in Python. Additional aesthetic effects were achieved using the [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/) library. 
 
-This application is hosted online [here](https://resort-explorer.onrender.com/). Please allow a few minutes for the page to load.
+This application is deployed online [here](https://resort-explorer.onrender.com/). Please allow a few minutes for the page to load.
 
 *Please note that the purpose of this application is to illustrate the use of the Plotly and Dash libraries. The underlying dataset may contain errors and inaccuracies and therefore should not be relied on as a source of factual information.*
 

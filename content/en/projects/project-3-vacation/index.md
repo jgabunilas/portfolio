@@ -77,7 +77,7 @@ Perhaps more interesting than the weather information are the actual decisions o
 
 [![humidity heatmap](humidity_heatmap.PNG)](https://jgabunilas.github.io/images/humidity_heatmap.PNG)
 
-4. The `cities_df` dataframe is filtered into a new dataframe called `ideal_weather` using Pandas to filter the cities by the weather preferences. For this exercise the following conditions were applied:
+3. The `cities_df` dataframe is filtered into a new dataframe called `ideal_weather` using Pandas to filter the cities by the weather preferences. For this exercise the following conditions were applied:
 - Maximum temperature between 68 and 80 degrees F
 - Wind speed of less than 8 mph
 - Cloudiness of less than 20%
