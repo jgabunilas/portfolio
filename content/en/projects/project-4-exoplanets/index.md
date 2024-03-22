@@ -19,6 +19,7 @@ Planetary data collected by various means (including the telescope) has been use
 
 This objective of this exercise is to utilize machine learning methods, specifically the [Scikitlearn](https://scikit-learn.org/stable/) library in Python, to solve a classification problem of stellar proportions (pun intended). The approach makes use of Numpy, Pandas, Scikitlearn, and [TensorFlow](https://www.tensorflow.org/) via [Keras](https://keras.io/guides/sequential_model/).
 
+---
 ## Approach 1 - Random Forest Classifier
 
 The [random forest classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) was selected as the first classification approach due to its robustness. Outline of steps:
@@ -44,6 +45,7 @@ The [random forest classifier](https://scikit-learn.org/stable/modules/generated
 The initial model scored very strongly (100%) when evaluated against the training data and a respectable **88.90%** when evaluated against the test data. As previously mentioned, only four features scored higher than 10% in importance, with the majority of features scoring less than 1%. 
 When the model was re-run with only the top 10 most important features, the testing score rose by a negligable amount to **88.96%**. Interestingly, hyperparameter tuning with GridSearch had a negative effect on the training data score, yielding a best score of **89.49%** The testing data score on the hypertuned model was **88.84%**, which was marginally worse than the non-tuned, reduced model and the original full-feature model. It remains possible that more refined hyperparameter tuning could improve the model even further, for example by implementing [validation curves](https://towardsdatascience.com/optimizing-hyperparameters-in-random-forest-classification-ec7741f9d3f6). However, the greatest improvements in the model are likely to be gained by gathering more data.
 
+---
 ## Approach 2 - Deep Learning Neural Network
 
 The deep learning neural network is a power, if not quite well understood, method for classification. It was selected here due to the ease of adding additional layers to make the algorithm more powerful. Outline of steps:
@@ -58,6 +60,7 @@ The deep learning neural network is a power, if not quite well understood, metho
 When fitted to the training data, the initial neural network model with a single layer of 100 nodes achieved a remarkable accuracy of **89.07%** by epoch 100. When evaluated against the test data, the model demonstrated an accuracy of **89.30%**, which was just slightly higher than random forest models. 
 By adding two additional hidden layers of 100 nodes each, the accuracy of the model on the training data increased to **90.14%** by epoch 100. However, the deeper neural network revealed an accuracy of **88.22%** when evaluated against the test data. While this was just marginally less accurate than the "shallower" model, it suggests that deeper is not always better. The model may have been overfit to the training data.
 
+---
 ## Approach 3 - K Nearest Neighbors
 
 As a more tangible comparison to the random forest, a model was also constructed using the [K Nearest Neighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html#sklearn.neighbors.NearestNeighbors.radius_neighbors) algorithm. Outline of steps:
@@ -75,6 +78,7 @@ As a more tangible comparison to the random forest, a model was also constructed
 The initial model was fitted to the same training dataset as the random forest and neural network models, iterating over a range of `n_neighbor`s (*k*) values. Training accuracy scores gradually decreased with increasing *k*, while the test accuracy scores peaked at *k=13* and gradually decreased thereafter. The highest testing score achieved was **82.6%** at *k=13*. 
 Hyperparameter tuning with different leaf sizes, p values, and algorithms produced a model that scored **83.16%** accuracy against the test data, achieved when the `ball_tree` model was used with `p=1` and `leaf_size = 10`. The hypertuned model's performance on the testing data was actually marginally higher at **83.18%**. 
 
+---
 ## Conclusions and Future Directions
 This was a successful initial foray into the application of machine learning algorithms to a real-world (or perhaps more appropriately, "real out of this world") classification problem. While "shallow" neural network model demonstrated the best performance with this dataset, it performed only marginally better than the random forest model. The K-nearest-neighbor model was the least accurate of the three.
 
