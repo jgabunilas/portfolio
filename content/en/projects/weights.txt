@@ -1,5 +1,6 @@
 5. Ski resorts 
 6. Exoplants 
+8. UK Banks
 10. Weather and Vacation API
 11. Social Media App Clone
 15. Monty Hall Problem
