@@ -32,7 +32,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 
-# Custom menu definition with weighted pages
+# Custom menu definition with weighted page links
 [menus]
 [[menus.main]]
     name = 'About Me'
