@@ -34,7 +34,7 @@ I earned my Ph.D. in Biochemistry and Molecular Biology from the University of C
 
 After completing my doctorate, I began my career as a process engineer at a large biotechnology company that specializes in DNA sequencing and genotyping technologies. There, my exposure to massive genotyping datasets nucleated an interest in data science. This inspired me to seek formal training on the subject, leading me to enroll in a [Data Science and Visualization Boot Camp](https://extendedstudies.ucsd.edu/courses-and-programs/data-science-and-visualization-part-i) program at the University of California, San Diego. I completed the program and earned my certificate in 2020.
 
-I continue to develop and hone my skills in the various facets of data science through independent learning, primarily via MOOC's. Below is a list of relevant courses that I have completed through independent study. I constructed many of the projects featured in my portfolio part of assignments for these courses.
+I continue to develop and hone my skills in the various facets of data science through independent learning, primarily via MOOC's. Below is a list of relevant courses that I have completed through independent study. I constructed many of the projects featured in my portfolio as assignments during these courses.
 
 ### Udemy
 
