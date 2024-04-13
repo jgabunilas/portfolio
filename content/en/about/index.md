@@ -40,20 +40,20 @@ I continue to develop and hone my skills in the various facets of data science t
 
 | Course Name | Subject | Year Completed |
 | :--- | :----: | :----: |
-| [Python Data Visualization: Dashboards with Plotly & Dash](https://drive.google.com/open?id=1I5cI9aluIYfRSrjeweXtbstKpzlBoerL&usp=drive_fs) | Python, Plotly, Dash | 2024
-| [The Git & Github Bootcamp](https://drive.google.com/open?id=1CD2HxQdNT51DrOjknsgwomb2_RUTIsng&usp=drive_fs) | Git, Github | 2023
+| [Python Data Visualization: Dashboards with Plotly & Dash](https://1drv.ms/b/s!Agcorq39NjGPhf8Bgi4HbzDjLy1eKQ?e=1eWRpz) | Python, Plotly, Dash | 2024
+| [The Git & Github Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf59MtaL9xgy7LQC6Q?e=f6MWpT) | Git, Github | 2023
 | [Tableau 2022 A-Z: Hands-On Tableau Training for Data Science](https://drive.google.com/open?id=1CoCnyEGbBLI9U5rMTIXDykW9fbzmiAUB&usp=drive_fs) | Tableau | 2022
-| [The Ultimate MySQL Bootcamp: Go from SQL Beginniner to Expert](https://drive.google.com/open?id=1CMzqft2k0oBpbnRGGl4iGMUHB9Ejyb4i&usp=drive_fs) | SQL, MySQL | 2022
-| [The Ultimate Pandas Bootcamp: Advanced Python Data Analysis](https://drive.google.com/open?id=1CH38Zv_oluBS3PJVHmQbmkwZz6oOKPcm&usp=drive_fs) | Python, Pandas | 2021
-| [The Modern Python 3 Bootcamp](https://drive.google.com/open?id=1CPZRG485f2cyUvufgmnFPGuZPe4wiS4a&usp=drive_fs) | Python | 2021
-| [The Modern JavaScript Bootcamp](https://drive.google.com/open?id=1CQTeBr6kVBQC1AA_IPtQ3ceLuZmBVRx3&usp=drive_fs) | JavaScript| 2019
+| [The Ultimate MySQL Bootcamp: Go from SQL Beginniner to Expert](https://1drv.ms/b/s!Agcorq39NjGPhf5_heswQnFaA9dDbw?e=Xjunrr) | SQL, MySQL | 2022
+| [The Ultimate Pandas Bootcamp: Advanced Python Data Analysis](https://1drv.ms/b/s!Agcorq39NjGPhf8AUxCqFgYSeUQmtg?e=fFnAWd) | Python, Pandas | 2021
+| [The Modern Python 3 Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf8ClHdvZ99jUf8LLw?e=0Wtl4D) | Python | 2021
+| [The Modern JavaScript Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf5-5GxjyRgpN-nztQ?e=gpHWGq) | JavaScript| 2019
 
 ### Coursera
 
 | Course Name | Offering Institution | Subject |Year Completed |
 | :--- | :----: | :----: | :----: |
-| [Computing for Data Analysis](https://drive.google.com/open?id=13hRQgO4mcGFwDdx2yaUv-I1pcDqwMJ2i&usp=drive_fs) | Johns Hopkins University | R| 2014 |
-| [An Introduction to Interactive Programming in Python](https://drive.google.com/open?id=13pDroDhQNxwO-tAFqsbABRacnGbE42fL&usp=drive_fs) | Rice University | Python | 2014 |
+| [Computing for Data Analysis](https://1drv.ms/b/s!Agcorq39NjGPhfN8XTmfiLgYXKb0rg?e=VbemLo) | Johns Hopkins University | R| 2014 |
+| [An Introduction to Interactive Programming in Python](https://1drv.ms/b/s!Agcorq39NjGPhfN9gp6aAhXMMCwKhw?e=yQZLL5) | Rice University | Python | 2014 |
 
 
 
