@@ -13,7 +13,7 @@ menu:
 
 Nice to meet you! My name is Jason and I'm a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.  
 
-When I'm not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong learner, my eventual goal is to apply these proficiencies to my professional work in biotechnology and to accelerate the development and commercialization of medicines for those who need them the most.
+When I'm not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong student, my eventual goal is to apply these proficiencies to my professional work in biotechnology and beyond.
 
 ---
 
@@ -22,7 +22,7 @@ When I'm not working alongside my colleagues to bring life-changing medications 
 <!-- {{< figure src="/images/about/prague_talk1.jpg"  >}} -->
 ![](prague_talk1.jpg)
 
-Prior to entering the biotechnology industry, I spent over six years in academia conducting original research in the field of eukaryotic RNA splicing and gene expression regulation while pursuing my doctoral degree. My colleagues and I published multiple research articles that continue to bear influence on the RNA research community. I also had the privilege of presenting our work at two international scientific conferences.  
+Prior to entering the biotechnology industry, I spent over six years in academia conducting original research in the field of eukaryotic RNA splicing and gene expression regulation while pursuing my doctoral degree. The work published by my colleagues and I continues to bear influence on the RNA research community. I also had the privilege of presenting our discoveries at two international scientific conferences.  
 
 My scientific publications can be viewed on [Google Scholar](https://scholar.google.com/citations?user=DM08A88AAAAJ&hl=en&oi=ao) and [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Jason+Gabunilas%5BAuthor%5D&sort=date).
 
@@ -32,7 +32,7 @@ I earned my Ph.D. in Biochemistry and Molecular Biology from the University of C
 
 ## Programming and Computer Science Training
 
-After completing my doctorate, I began my career as a process engineer at a large biotechnology company that specializes in DNA sequencing and genotyping technologies. There, my exposure to massive genotyping datasets nucleated an interest in data science. This inspired me to seek formal training on the subject, leading me to enroll in a [Data Science and Visualization Boot Camp](https://extendedstudies.ucsd.edu/courses-and-programs/data-science-and-visualization-part-i) program at the University of California, San Diego. I completed the program and earned my certificate in 2020.
+After completing my doctorate, I began my professional career as a process engineer at a large biotechnology company that specializes in DNA sequencing and genotyping technologies. There, my exposure to massive genotyping datasets nucleated an interest in data science. This inspired me to seek additional training on the subject, leading me to enroll in a [Data Science and Visualization Boot Camp](https://extendedstudies.ucsd.edu/courses-and-programs/data-science-and-visualization-part-i) program at my alma mater, the University of California, San Diego. I completed the program and earned my certificate in 2020.  
 
 I continue to develop and hone my skills in the various facets of data science through independent learning, primarily via MOOC's. Below is a list of relevant courses that I have completed through independent study. I constructed many of the projects featured in my portfolio as assignments during these courses.
 

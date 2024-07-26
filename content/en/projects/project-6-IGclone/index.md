@@ -18,9 +18,9 @@ A SQL relational database exercise
 
 ## Introduction
 
-In this project, we construct a relational database that is intended to mimic the basic functionality of a social media application. First, the database tables defined, with key relationships established between them to enable the desired functionalities and enforce data integrity. Next, the tables are loaded with fictional data representing users, objects and actions for a typical social media site, including Likes, Comments, Photos, and Follows. Lastly, SQL commands are used to explore the data and answer pertinent questions about the application and the behavior of its users.
+In this project, we construct a relational database that is intended to mimic the basic functionality of a social media application. First, the database tables are defined, with key relationships established between them to enable the desired functionalities and enforce data integrity. Next, the tables are loaded with fictional data representing users, objects and actions for a typical social media site, including Likes, Comments, Photos, and Follows. Lastly, SQL commands are used to explore the data and uncover insights about the application and the behavior of its users.
 
-This exercise was completed as part of the [Ultimate MySQL Bootcamp](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/) course by Colt Steele. 
+This project was completed as part of the [Ultimate MySQL Bootcamp](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/) course by Colt Steele. 
 
 ---
 
