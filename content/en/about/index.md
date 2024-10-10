@@ -40,6 +40,7 @@ I continue to develop and hone my skills in the various facets of data science t
 
 | Course Name | Subject | Year Completed |
 | :--- | :----: | :----: |
+| [Azure Databricks & Spark for Data Engineers](https://1drv.ms/b/s!Agcorq39NjGPhqwbCblsH1XRFbT29w?e=erPEfg) | PySpark, Spark SQL, Databricks | 2024
 | [Python Data Visualization: Dashboards with Plotly & Dash](https://1drv.ms/b/s!Agcorq39NjGPhf8Bgi4HbzDjLy1eKQ?e=1eWRpz) | Python, Plotly, Dash | 2024
 | [The Git & Github Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf59MtaL9xgy7LQC6Q?e=f6MWpT) | Git, Github | 2023
 | [Tableau 2022 A-Z: Hands-On Tableau Training for Data Science](https://drive.google.com/open?id=1CoCnyEGbBLI9U5rMTIXDykW9fbzmiAUB&usp=drive_fs) | Tableau | 2022
