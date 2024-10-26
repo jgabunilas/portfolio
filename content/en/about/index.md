@@ -36,25 +36,39 @@ After completing my doctorate, I began my professional career as a process engin
 
 I continue to develop and hone my skills in the various facets of data science through independent learning, primarily via MOOC's. Below is a list of relevant courses that I have completed through independent study. I constructed many of the projects featured in my portfolio as assignments during these courses.
 
-### Udemy
 
+<!-- ### Maven Analytics
 | Course Name | Subject | Year Completed |
+| :--- | :----: | :----: | -->
+
+
+<!-- ### Udemy -->
+
+<!-- | Course Name | Subject | Year Completed |
 | :--- | :----: | :----: |
 | [Azure Databricks & Spark for Data Engineers](https://1drv.ms/b/s!Agcorq39NjGPhqwbCblsH1XRFbT29w?e=erPEfg) | PySpark, Spark SQL, Databricks | 2024
 | [Python Data Visualization: Dashboards with Plotly & Dash](https://1drv.ms/b/s!Agcorq39NjGPhf8Bgi4HbzDjLy1eKQ?e=1eWRpz) | Python, Plotly, Dash | 2024
 | [The Git & Github Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf59MtaL9xgy7LQC6Q?e=f6MWpT) | Git, Github | 2023
-| [Tableau 2022 A-Z: Hands-On Tableau Training for Data Science](https://drive.google.com/open?id=1CoCnyEGbBLI9U5rMTIXDykW9fbzmiAUB&usp=drive_fs) | Tableau | 2022
+| [Tableau 2022 A-Z: Hands-On Tableau Training for Data Science](https://1drv.ms/b/s!Agcorq39NjGPhf8D3hNSHtUvI23ypQ) | Tableau | 2022
 | [The Ultimate MySQL Bootcamp: Go from SQL Beginniner to Expert](https://1drv.ms/b/s!Agcorq39NjGPhf5_heswQnFaA9dDbw?e=Xjunrr) | SQL, MySQL | 2022
 | [The Ultimate Pandas Bootcamp: Advanced Python Data Analysis](https://1drv.ms/b/s!Agcorq39NjGPhf8AUxCqFgYSeUQmtg?e=fFnAWd) | Python, Pandas | 2021
 | [The Modern Python 3 Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf8ClHdvZ99jUf8LLw?e=0Wtl4D) | Python | 2021
-| [The Modern JavaScript Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf5-5GxjyRgpN-nztQ?e=gpHWGq) | JavaScript| 2019
+| [The Modern JavaScript Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf5-5GxjyRgpN-nztQ?e=gpHWGq) | JavaScript| 2019 -->
 
-### Coursera
 
-| Course Name | Offering Institution | Subject |Year Completed |
+| Course Name | Course Provider | Subject |Year Completed |
 | :--- | :----: | :----: | :----: |
-| [Computing for Data Analysis](https://1drv.ms/b/s!Agcorq39NjGPhfN8XTmfiLgYXKb0rg?e=VbemLo) | Johns Hopkins University | R| 2014 |
-| [An Introduction to Interactive Programming in Python](https://1drv.ms/b/s!Agcorq39NjGPhfN9gp6aAhXMMCwKhw?e=yQZLL5) | Rice University | Python | 2014 |
+| [Data & AI Ethics](https://1drv.ms/b/s!Agcorq39NjGPhrVE3hNSHtUvI23ypQ) | Maven Analytics | Ethics | 2024
+| [Azure Databricks & Spark for Data Engineers](https://1drv.ms/b/s!Agcorq39NjGPhqwbCblsH1XRFbT29w?e=erPEfg) | Udemy | PySpark, Spark SQL, Databricks | 2024
+| [Python Data Visualization: Dashboards with Plotly & Dash](https://1drv.ms/b/s!Agcorq39NjGPhf8Bgi4HbzDjLy1eKQ?e=1eWRpz) | Udemy | Python, Plotly, Dash | 2024
+| [The Git & Github Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf59MtaL9xgy7LQC6Q?e=f6MWpT) | Udemy | Git, Github | 2023
+| [Tableau 2022 A-Z: Hands-On Tableau Training for Data Science](https://1drv.ms/b/s!Agcorq39NjGPhf8D3hNSHtUvI23ypQ) | Udemy | Tableau | 2022
+| [The Ultimate MySQL Bootcamp: Go from SQL Beginniner to Expert](https://1drv.ms/b/s!Agcorq39NjGPhf5_heswQnFaA9dDbw?e=Xjunrr) | Udemy | SQL, MySQL | 2022
+| [The Ultimate Pandas Bootcamp: Advanced Python Data Analysis](https://1drv.ms/b/s!Agcorq39NjGPhf8AUxCqFgYSeUQmtg?e=fFnAWd) | Udemy | Python, Pandas | 2021
+| [The Modern Python 3 Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf8ClHdvZ99jUf8LLw?e=0Wtl4D) | Udemy | Python | 2021
+| [The Modern JavaScript Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf5-5GxjyRgpN-nztQ?e=gpHWGq) | Udemy | JavaScript| 2019
+| [Computing for Data Analysis](https://1drv.ms/b/s!Agcorq39NjGPhfN8XTmfiLgYXKb0rg?e=VbemLo) | Johns Hopkins University via Coursera | R| 2014 |
+| [An Introduction to Interactive Programming in Python](https://1drv.ms/b/s!Agcorq39NjGPhfN9gp6aAhXMMCwKhw?e=yQZLL5) | Rice University via Coursera | Python | 2014 |
 
 
 
