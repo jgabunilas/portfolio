@@ -4,7 +4,7 @@ featured_image: '/images/contact/contact_feat.jpg'
 omit_header_text: False
 # description: I would love to hear from you!
 type: page
-menu: main
+# menu: main
 
 ---
 
