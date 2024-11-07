@@ -56,14 +56,14 @@ I continue to develop and hone my skills in the various facets of data science t
 | [The Modern JavaScript Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf5-5GxjyRgpN-nztQ?e=gpHWGq) | JavaScript| 2019 -->
 
 
-| Course Name | Course Provider | Subject |Year Completed |
+| Course Name | Provider/Platform | Subject |Year Completed |
 | :--- | :----: | :----: | :----: |
 | [Data & AI Ethics](https://1drv.ms/b/s!Agcorq39NjGPhrVE3hNSHtUvI23ypQ) | Maven Analytics | Ethics | 2024
 | [Azure Databricks & Spark for Data Engineers](https://1drv.ms/b/s!Agcorq39NjGPhqwbCblsH1XRFbT29w?e=erPEfg) | Udemy | PySpark, Spark SQL, Databricks | 2024
 | [Python Data Visualization: Dashboards with Plotly & Dash](https://1drv.ms/b/s!Agcorq39NjGPhf8Bgi4HbzDjLy1eKQ?e=1eWRpz) | Udemy | Python, Plotly, Dash | 2024
 | [The Git & Github Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf59MtaL9xgy7LQC6Q?e=f6MWpT) | Udemy | Git, Github | 2023
 | [Tableau 2022 A-Z: Hands-On Tableau Training for Data Science](https://1drv.ms/b/s!Agcorq39NjGPhf8D3hNSHtUvI23ypQ) | Udemy | Tableau | 2022
-| [The Ultimate MySQL Bootcamp: Go from SQL Beginniner to Expert](https://1drv.ms/b/s!Agcorq39NjGPhf5_heswQnFaA9dDbw?e=Xjunrr) | Udemy | SQL, MySQL | 2022
+| [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://1drv.ms/b/s!Agcorq39NjGPhf5_heswQnFaA9dDbw?e=Xjunrr) | Udemy | SQL, MySQL | 2022
 | [The Ultimate Pandas Bootcamp: Advanced Python Data Analysis](https://1drv.ms/b/s!Agcorq39NjGPhf8AUxCqFgYSeUQmtg?e=fFnAWd) | Udemy | Python, Pandas | 2021
 | [The Modern Python 3 Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf8ClHdvZ99jUf8LLw?e=0Wtl4D) | Udemy | Python | 2021
 | [The Modern JavaScript Bootcamp](https://1drv.ms/b/s!Agcorq39NjGPhf5-5GxjyRgpN-nztQ?e=gpHWGq) | Udemy | JavaScript| 2019
