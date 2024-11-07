@@ -9,7 +9,8 @@ theme = "ananke"
 DefaultContentLanguage = "en"
 # The SectionPagesMenu option must be disabled in order to use custom menu definitions. See below.
 # SectionPagesMenu = "main"
-Paginate = 6 # determines how many projects are displayed per page
+[pagination]
+pagerSize = 6 # determines how many projects are displayed per page
 # googleAnalytics = ""
 enableRobotsTXT = true
 # canonifyURLs = true
@@ -38,15 +39,17 @@ enableRobotsTXT = true
     name = 'About Me'
     pageRef = '/about'
     weight = 10
+    identifier = 'about-me'
 [[menus.main]]
     name = 'Projects'
     pageRef = '/projects'
     weight = 20
+    identifier = 'projects'
 [[menus.main]]
     name = 'Contact'
     pageRef = '/contact'
     weight = 30
-
+    identifier = 'contact'
 
 
 [params]
