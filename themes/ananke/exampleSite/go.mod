@@ -1,7 +1,7 @@
 module github.com/theNewDynamic/gohugo-theme-ananke/exampleSite
 
-go 1.23
+go 1.14
 
-require github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20241018002841-8e1a6dc21313 // indirect
+require github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220421182344-c49009b823de // indirect
 
 replace github.com/theNewDynamic/gohugo-theme-ananke => ../

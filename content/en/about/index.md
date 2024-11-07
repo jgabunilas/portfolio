@@ -2,9 +2,9 @@
 title: "About Me"
 # description: "Hi, I'm Jason."
 featured_image: '/images/aurora-225449_1920.jpg'
-# menu:
-#   main:
-#     weight: 1
+menu:
+  main:
+    weight: 1
 ---
 <!-- {{< figure src="/images/about/DSCF1926-bw.jpg"  >}} -->
 <!-- <img src="{{ "images/about/DSCF1926-bw.jpg" | relURL }}" alt="My Image"> -->

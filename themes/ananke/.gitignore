@@ -32,10 +32,3 @@ partials/structure/stylesheet.html
 
 # Hugo
 .hugo_build.lock
-resources/_gen/
-
-# Build
-.wireit
-.favorites.json
-*.code-workspace
-config/gargulus
