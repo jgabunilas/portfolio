@@ -58,6 +58,7 @@ I continue to develop and hone my skills in the various facets of data science t
 
 | Course Name | Provider/Platform | Subject |Year Completed |
 | :--- | :----: | :----: | :----: |
+| [Essential Statistics for Data Analysis](https://1drv.ms/b/c/8f3136fdadae2807/EW-GEOokRPJNkiwkwfpBAz8BcLyDLVQnuEHeSgM5HvuIVQ) | Maven Analytics via Udemy | Statistics, Excel | 2024
 | [Data & AI Ethics](https://1drv.ms/b/s!Agcorq39NjGPhrVE3hNSHtUvI23ypQ) | Maven Analytics | Ethics | 2024
 | [Azure Databricks & Spark for Data Engineers](https://1drv.ms/b/s!Agcorq39NjGPhqwbCblsH1XRFbT29w?e=erPEfg) | Udemy | PySpark, Spark SQL, Databricks | 2024
 | [Python Data Visualization: Dashboards with Plotly & Dash](https://1drv.ms/b/s!Agcorq39NjGPhf8Bgi4HbzDjLy1eKQ?e=1eWRpz) | Udemy | Python, Plotly, Dash | 2024
