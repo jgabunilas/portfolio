@@ -15,13 +15,9 @@ type: page
 
 <div style="margin-bottom: 1em; display: flex; justify-content: center; gap: 40px;">
   <a href="https://github.com/jgabunilas" target="_blank">
-    <img src="/images/github-mark.png" alt="GitHub" width="72" height="72">
+    <img src="https://jgabunilas.github.io/images/github-mark.png" alt="GitHub" width="72" height="72">
   </a>
   <a href="https://linkedin.com/in/jason-gabunilas" target="_blank">
-    <img src="/images/InBug-Black.png" alt="LinkedIn" width="72" height="72">
+    <img src="https://jgabunilas.github.io/images/InBug-Black.png" alt="LinkedIn" width="72" height="72">
   </a>
 </div>
-
-
-
-<!-- I would love to hear from you! Please feel free to send me message via [LinkedIn](https://www.linkedin.com/in/jason-gabunilas/). -->
