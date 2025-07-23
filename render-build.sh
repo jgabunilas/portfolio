@@ -3,11 +3,11 @@ set -o errexit
 
 # Set your desired Hugo version
 HUGO_VERSION="0.148.1"
-TAR_NAME="hugo_extended_${HUGO_VERSION}_Linux-arm64.tar.gz"
+TAR_NAME="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
 
 # Download Hugo Extended
 mkdir -p ~/tmp
-wget -q -P ~/tmp https://github.com/gohugoio/hugo/releases/download/v0.148.1/v${HUGO_VERSION}/${TAR_NAME}
+wget -q -P ~/tmp https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${TAR_NAME}
 tar -xzf ~/tmp/${TAR_NAME} -C ~/tmp
 
 # Move Hugo binary to a safe location
