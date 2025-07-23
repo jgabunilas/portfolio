@@ -7,7 +7,7 @@ TAR_NAME="hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
 
 # Download Hugo Extended
 mkdir -p ~/tmp
-wget -q -P ~/tmp https://github.com/gohugoio/hugo/releases/tag/v0.148.1/v${HUGO_VERSION}/${TAR_NAME}
+wget -q -P ~/tmp https://github.com/gohugoio/hugo/releases/download/v0.148.1/v${HUGO_VERSION}/${TAR_NAME}
 tar -xzf ~/tmp/${TAR_NAME} -C ~/tmp
 
 # Move Hugo binary to a safe location
