@@ -22,7 +22,7 @@ This simple exercise is a Python implementation of the Monty Hall problem with t
 1. A functional implementation which allows the user to play through the game
 2. A simulator that runs through a chosen number of iterations of the game and displays the outcomes based on the parameters selected by the user.
 
-This exercise is not intended to expand upon existing mathematical knowledge of the Monty Hall problem, which as been thoroughly solved both explicity and computationally. Instead, it is meant to showcase the use of Python data types as well as demonstrate basic use of Pandas dataframes and plotting functions. 
+This exercise is not intended to expand upon existing mathematical knowledge of the Monty Hall problem, which as been thoroughly solved both explicity and computationally. Instead, it is meant to showcase the use of Python data types, illustrate programming logic, and demonstrate basic use of Pandas dataframes and plotting functions. 
 
 ![](monty_man.jpg)
 

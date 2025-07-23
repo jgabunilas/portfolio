@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming and Data Science Portfolio on Jason Gabunilas</title>
-    <link>https://jgabunilas.onrender.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Programming and Data Science Portfolio on Jason Gabunilas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Apr 2017 11:13:32 -0400</lastBuildDate>
-    <atom:link href="https://jgabunilas.onrender.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ski Resort Explorer</title>
-      <link>https://jgabunilas.onrender.com/projects/project-1-resorts/</link>
+      <link>http://localhost:1313/projects/project-1-resorts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-1-resorts/</guid>
+      <guid>http://localhost:1313/projects/project-1-resorts/</guid>
       <description>&lt;p&gt;An interactive Plotly Dash web application&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exoplanet Classifier</title>
-      <link>https://jgabunilas.onrender.com/projects/project-4-exoplanets/</link>
+      <link>http://localhost:1313/projects/project-4-exoplanets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-4-exoplanets/</guid>
+      <guid>http://localhost:1313/projects/project-4-exoplanets/</guid>
       <description>&lt;p&gt;A machine learning space odyssey with Scikitlearn, TensorFlow, and Keras&lt;/p&gt;</description>
     </item>
     <item>
       <title>UK Bank Customers</title>
-      <link>https://jgabunilas.onrender.com/projects/project-8-banks/</link>
+      <link>http://localhost:1313/projects/project-8-banks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-8-banks/</guid>
+      <guid>http://localhost:1313/projects/project-8-banks/</guid>
       <description>&lt;p&gt;An interactive Tableau BI dashboard&lt;/p&gt;</description>
     </item>
     <item>
       <title>Weather and Vacation API</title>
-      <link>https://jgabunilas.onrender.com/projects/project-3-vacation/</link>
+      <link>http://localhost:1313/projects/project-3-vacation/</link>
       <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-3-vacation/</guid>
+      <guid>http://localhost:1313/projects/project-3-vacation/</guid>
       <description>&lt;p&gt;An exercise in Python data wrangling and web APIs&lt;/p&gt;</description>
     </item>
     <item>
       <title>Social Media App Clone</title>
-      <link>https://jgabunilas.onrender.com/projects/project-6-igclone/</link>
+      <link>http://localhost:1313/projects/project-6-igclone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-6-igclone/</guid>
+      <guid>http://localhost:1313/projects/project-6-igclone/</guid>
       <description>&lt;p&gt;A SQL relational database exercise&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Monty Hall Problem</title>
-      <link>https://jgabunilas.onrender.com/projects/project-2-monty/</link>
+      <link>http://localhost:1313/projects/project-2-monty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-2-monty/</guid>
+      <guid>http://localhost:1313/projects/project-2-monty/</guid>
       <description>&lt;p&gt;A Python implementation of the classic probability puzzle&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hangman</title>
-      <link>https://jgabunilas.onrender.com/projects/project-7-hangman/</link>
+      <link>http://localhost:1313/projects/project-7-hangman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-7-hangman/</guid>
+      <guid>http://localhost:1313/projects/project-7-hangman/</guid>
       <description>&lt;p&gt;A JavaScript twist on the classic word guessing game&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quotes Guessing Game</title>
-      <link>https://jgabunilas.onrender.com/projects/project-5-quotes/</link>
+      <link>http://localhost:1313/projects/project-5-quotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/projects/project-5-quotes/</guid>
+      <guid>http://localhost:1313/projects/project-5-quotes/</guid>
       <description>&lt;p&gt;A Python webscraping project with Beautifulsoup&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://jgabunilas.onrender.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/about/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jgabunilas.onrender.com/about/DSCF1926-bw.JPG&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nice to meet you! My name is Jason and I&amp;rsquo;m a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.&lt;/p&gt;&#xA;&lt;p&gt;When I&amp;rsquo;m not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong student, my eventual goal is to apply these proficiencies to my professional work in biotechnology and beyond.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;!-- &lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/about/DSCF1926-bw.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA; --&gt;&#xA;&lt;!-- &lt;img src=&#34;{{ &#34;images/about/DSCF1926-bw.jpg&#34; | relURL }}&#34; alt=&#34;My Image&#34;&gt; --&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/about/DSCF1926-bw.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thank you for visiting! My name is Jason and I&amp;rsquo;m a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.&lt;/p&gt;&#xA;&lt;p&gt;Outside of my day job as a process development scientist, I spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong student, my eventual goal is to apply these proficiencies to my professional work in biotechnology and beyond.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://jgabunilas.onrender.com/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jgabunilas.onrender.com/contact/</guid>
-      <description>&lt;p&gt;I would love to hear from you! Please feel free to send me message via &#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://www.linkedin.com/in/jason-gabunilas/&#34; target=&#34;_blank&#34; &gt;LinkedIn&lt;/a&gt;&#xD;&#xA;.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p style=&#34;font-size: 1.1em; margin-bottom: 0.5em;&#34;&gt;&#xA;  I would love to hear from you. Please feel free to connect with me on GitHub or Linkedin.&#xA;&lt;/p&gt;&#xA;&lt;div style=&#34;margin-bottom: 1em; display: flex; justify-content: center; gap: 40px;&#34;&gt;&#xA;  &lt;a href=&#34;https://github.com/jgabunilas&#34; target=&#34;_blank&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/github-mark.png&#34; alt=&#34;GitHub&#34; width=&#34;72&#34; height=&#34;72&#34;&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;https://linkedin.com/in/jason-gabunilas&#34; target=&#34;_blank&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/InBug-Black.png&#34; alt=&#34;LinkedIn&#34; width=&#34;72&#34; height=&#34;72&#34;&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;!-- I would love to hear from you! Please feel free to send me message via [LinkedIn](https://www.linkedin.com/in/jason-gabunilas/). --&gt;</description>
     </item>
   </channel>
 </rss>

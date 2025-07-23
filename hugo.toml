@@ -11,9 +11,11 @@ DefaultContentLanguage = "en"
 # SectionPagesMenu = "main"
 # [pagination]
 # pagerSize = 6 # determines how many projects are displayed per page
-Paginate = 6 # determines how many projects are displayed per page
+# Paginate = 6 # determines how many projects are displayed per page
 # googleAnalytics = ""
 enableRobotsTXT = true
+[pagination]
+pagerSize = 6 # determines how many projects are displayed per page
 # canonifyURLs = true
 # relativeURLs = true
 
@@ -60,8 +62,18 @@ enableRobotsTXT = true
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 3 # determines how many projects are displayed on the main page
-  linkedin = "https://www.linkedin.com/in/jason-gabunilas/"
-  github = "https://github.com/jgabunilas"
+  # linkedin = "https://www.linkedin.com/in/jason-gabunilas/"
+  # github = "https://github.com/jgabunilas"
+[params.social]
+    github = "https://github.com/jgabunilas"
+    linkedin = "https://linkedin.com/in/jason-gabunilas"
+
+# Enable unsafe HTML rendering
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 
 # [[module.mounts]]
 # source = 'static'

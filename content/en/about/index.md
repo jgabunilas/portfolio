@@ -11,9 +11,9 @@ featured_image: '/images/aurora-225449_1920.jpg'
 ![](DSCF1926-bw.jpg)
 
 
-Nice to meet you! My name is Jason and I'm a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.  
+Thank you for visiting! My name is Jason and I'm a molecular biologist, biochemist, and process engineer currently working in the biopharmaceutical industry.  
 
-When I'm not working alongside my colleagues to bring life-changing medications to patients suffering from serious illnesses, I spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong student, my eventual goal is to apply these proficiencies to my professional work in biotechnology and beyond.
+Outside of my day job as a process development scientist, I spend much of my free time advancing my skills in data analytics, data visualization, and machine learning. As a lifelong student, my eventual goal is to apply these proficiencies to my professional work in biotechnology and beyond.
 
 ---
 
